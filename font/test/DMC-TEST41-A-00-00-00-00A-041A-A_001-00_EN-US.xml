@@ -1,0 +1,1326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Docuneering Ltd, S1000D Issue 4.1 [xml_schema_flat], TEST Data -->
+<!DOCTYPE dmodule[
+]>
+<dmodule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:dc="http://www.purl.org/dc/elements/1.1/" 
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-1/xml_schema_flat/descript.xsd">
+	<identAndStatusSection>
+		<dmAddress>
+			<dmIdent>
+				<dmCode modelIdentCode="TEST41" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="041" infoCodeVariant="A" itemLocationCode="A"/>
+				<language countryIsoCode="US" languageIsoCode="en"/>
+				<issueInfo issueNumber="001" inWork="00"/>
+			</dmIdent>
+			<dmAddressItems>
+				<issueDate day="31" month="12" year="2021"/>
+				<dmTitle>
+					<techName>S1000D Issue 4.1</techName>
+					<infoName>XML Character Entities</infoName>
+				</dmTitle>
+			</dmAddressItems>
+		</dmAddress>
+		<dmStatus issueType="new">
+			<security securityClassification="01" commercialClassification="cc51" caveat="cv51"/>
+			<dataRestrictions>
+				<restrictionInstructions>
+					<dataDistribution>For Docuneering testing purposes only.</dataDistribution>
+				</restrictionInstructions>
+				<restrictionInfo>
+					<copyright>
+						<copyrightPara>
+							<emphasis>Copyright &#169; 2021</emphasis> by: <randomList>
+								<listItem>
+									<para>Docuneering Ltd.</para>
+								</listItem>
+							</randomList>
+						</copyrightPara>
+						<copyrightPara>
+							<emphasis>Limitations of Liability:</emphasis>
+						</copyrightPara>
+						<copyrightPara>
+							<randomList>
+								<listItem>
+									<para>This material is provided "As Is" and neither Docuneering nor any person who has contributed to the creation, revision or maintenance of the material makes any representations or warranties, express or implied, including but not limited to, warranties of merchantability or fitness for any particular purpose.</para>
+								</listItem>
+								<listItem>
+									<para>Neither Docuneering nor any person who has contributed to the creation, revision or maintenance of this material shall be liable for any direct, indirect, special or consequential damages or any other liability arising from any use of this material.</para>
+								</listItem>
+							</randomList>
+						</copyrightPara>
+					</copyright>
+				</restrictionInfo>
+			</dataRestrictions>
+			<responsiblePartnerCompany enterpriseCode="X1234">
+				<enterpriseName>Docuneering Ltd</enterpriseName>
+			</responsiblePartnerCompany>
+			<originator enterpriseCode="X1234">
+				<enterpriseName>Docuneering Ltd</enterpriseName>
+			</originator>
+			<applicCrossRefTableRef>
+				<dmRef xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-TEST41-A-00-00-00-00A-00WA-D">
+					<dmRefIdent>
+						<dmCode modelIdentCode="TEST41" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="00W" infoCodeVariant="A" itemLocationCode="D"/>
+					</dmRefIdent>
+				</dmRef>
+			</applicCrossRefTableRef>
+			<applic>
+				<displayText>
+					<simplePara>All</simplePara>
+				</displayText>
+			</applic>
+			<brexDmRef>
+				<dmRef xlink:type="simple" xlink:actuate="onRequest" xlink:show="replace" xlink:href="URN:S1000D:DMC-TEST41-A-00-00-00-00A-022A-D">
+					<dmRefIdent>
+						<dmCode modelIdentCode="TEST41" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"/>
+					</dmRefIdent>
+				</dmRef>
+			</brexDmRef>
+			<qualityAssurance>
+				<firstVerification verificationType="tabtop"/>
+			</qualityAssurance>
+		</dmStatus>
+	</identAndStatusSection>
+	<content>
+		<refs>
+			<externalPubRef xlink:href="http://www.oasis-open.org/docbook/specs/wd-docbook-xmlcharent-0.3.pdf" xlink:title="XML Character Entities">
+				<externalPubRefIdent>
+					<externalPubCode>wd-docbook-xmlcharent-0.3</externalPubCode>
+					<externalPubTitle>XML Character Entities</externalPubTitle>
+					<externalPubIssueInfo>
+						<externalPubIssue>Working Draft 0.3, 13 June 2002</externalPubIssue>
+					</externalPubIssueInfo>
+				</externalPubRefIdent>
+			</externalPubRef>
+		</refs>
+		<description>
+			<levelledPara>
+				<title>XML Character Entity files</title>
+				<table>
+					<title>iso-amsa.ent</title>
+					<tgroup cols="3">
+						<colspec colname="col1" colwidth="0.50*"/>
+						<colspec colname="col2" align="center" colwidth="0.40*"/>
+						<colspec colname="col3" colwidth="2.20*"/>
+						<thead>
+							<row><entry><para>ISO Entity Name</para></entry><entry><para>Unicode Entity</para></entry><entry><para>Description</para></entry></row>
+						</thead>
+						<tbody>
+							<row><entry><para>cularr</para></entry><entry><para>&#x21B6;</para></entry><entry><para>ANTICLOCKWISE TOP SEMICIRCLE ARROW</para></entry></row>
+							<row><entry><para>curarr</para></entry><entry><para>&#x21B7;</para></entry><entry><para>CLOCKWISE TOP SEMICIRCLE ARROW</para></entry></row>
+							<row><entry><para>dArr</para></entry><entry><para>&#x21D3;</para></entry><entry><para>DOWNWARDS DOUBLE ARROW</para></entry></row>
+							<row><entry><para>darr2</para></entry><entry><para>&#x21CA;</para></entry><entry><para>DOWNWARDS PAIRED ARROWS</para></entry></row>
+							<row><entry><para>dharl</para></entry><entry><para>&#x21C3;</para></entry><entry><para>DOWNWARDS HARPOON WITH BARB LEFTWARDS</para></entry></row>
+							<row><entry><para>dharr</para></entry><entry><para>&#x21C2;</para></entry><entry><para>DOWNWARDS HARPOON WITH BARB RIGHTWARDS</para></entry></row>
+							<row><entry><para>lAarr</para></entry><entry><para>&#x21DA;</para></entry><entry><para>LEFTWARDS TRIPLE ARROW</para></entry></row>
+							<row><entry><para>Larr</para></entry><entry><para>&#x219E;</para></entry><entry><para>LEFTWARDS TWO HEADED ARROW</para></entry></row>
+							<row><entry><para>larr2</para></entry><entry><para>&#x21C7;</para></entry><entry><para>LEFTWARDS PAIRED ARROWS</para></entry></row>
+							<row><entry><para>larrhk</para></entry><entry><para>&#x21A9;</para></entry><entry><para>LEFTWARDS ARROW WITH HOOK</para></entry></row>
+							<row><entry><para>larrlp</para></entry><entry><para>&#x21AB;</para></entry><entry><para>LEFTWARDS ARROW WITH LOOP</para></entry></row>
+							<row><entry><para>larrtl</para></entry><entry><para>&#x21A2;</para></entry><entry><para>LEFTWARDS ARROW WITH TAIL</para></entry></row>
+							<row><entry><para>lhard</para></entry><entry><para>&#x21BD;</para></entry><entry><para>LEFTWARDS HARPOON WITH BARB DOWNWARDS</para></entry></row>
+							<row><entry><para>lharu</para></entry><entry><para>&#x21BC;</para></entry><entry><para>LEFTWARDS HARPOON WITH BARB UPWARDS</para></entry></row>
+							<row><entry><para>hArr</para></entry><entry><para>&#x21D4;</para></entry><entry><para>LEFT RIGHT DOUBLE ARROW</para></entry></row>
+							<row><entry><para>harr</para></entry><entry><para>&#x2194;</para></entry><entry><para>LEFT RIGHT ARROW</para></entry></row>
+							<row><entry><para>lrarr2</para></entry><entry><para>&#x21C6;</para></entry><entry><para>LEFTWARDS ARROW OVER RIGHTWARDS ARROW</para></entry></row>
+							<row><entry><para>rlarr2</para></entry><entry><para>&#x21C4;</para></entry><entry><para>RIGHTWARDS ARROW OVER LEFTWARDS ARROW</para></entry></row>
+							<row><entry><para>harrw</para></entry><entry><para>&#x21AD;</para></entry><entry><para>LEFT RIGHT WAVE ARROW</para></entry></row>
+							<row><entry><para>rlhar2</para></entry><entry><para>&#x21CC;</para></entry><entry><para>RIGHTWARDS HARPOON OVER LEFTWARDS HARPOON</para></entry></row>
+							<row><entry><para>lrhar2</para></entry><entry><para>&#x21CB;</para></entry><entry><para>LEFTWARDS HARPOON OVER RIGHTWARDS HARPOON</para></entry></row>
+							<row><entry><para>lsh</para></entry><entry><para>&#x21B0;</para></entry><entry><para>UPWARDS ARROW WITH TIP LEFTWARDS</para></entry></row>
+							<row><entry><para>map</para></entry><entry><para>&#x21A6;</para></entry><entry><para>RIGHTWARDS ARROW FROM BAR</para></entry></row>
+							<row><entry><para>mumap</para></entry><entry><para>&#x22B8;</para></entry><entry><para>MULTIMAP</para></entry></row>
+							<row><entry><para>nearr</para></entry><entry><para>&#x2197;</para></entry><entry><para>NORTH EAST ARROW</para></entry></row>
+							<row><entry><para>nlArr</para></entry><entry><para>&#x21CD;</para></entry><entry><para>LEFTWARDS DOUBLE ARROW WITH STROKE</para></entry></row>
+							<row><entry><para>nlarr</para></entry><entry><para>&#x219A;</para></entry><entry><para>LEFTWARDS ARROW WITH STROKE</para></entry></row>
+							<row><entry><para>nhArr</para></entry><entry><para>&#x21CE;</para></entry><entry><para>LEFT RIGHT DOUBLE ARROW WITH STROKE</para></entry></row>
+							<row><entry><para>nharr</para></entry><entry><para>&#x21AE;</para></entry><entry><para>LEFT RIGHT ARROW WITH STROKE</para></entry></row>
+							<row><entry><para>nrarr</para></entry><entry><para>&#x219B;</para></entry><entry><para>RIGHTWARDS ARROW WITH STROKE</para></entry></row>
+							<row><entry><para>nrArr</para></entry><entry><para>&#x21CF;</para></entry><entry><para>RIGHTWARDS DOUBLE ARROW WITH STROKE</para></entry></row>
+							<row><entry><para>nwarr</para></entry><entry><para>&#x2196;</para></entry><entry><para>NORTH WEST ARROW</para></entry></row>
+							<row><entry><para>olarr</para></entry><entry><para>&#x21BA;</para></entry><entry><para>ANTICLOCKWISE OPEN CIRCLE ARROW</para></entry></row>
+							<row><entry><para>orarr</para></entry><entry><para>&#x21BB;</para></entry><entry><para>CLOCKWISE OPEN CIRCLE ARROW</para></entry></row>
+							<row><entry><para>rAarr</para></entry><entry><para>&#x21DB;</para></entry><entry><para>RIGHTWARDS TRIPLE ARROW</para></entry></row>
+							<row><entry><para>Rarr</para></entry><entry><para>&#x21A0;</para></entry><entry><para>RIGHTWARDS TWO HEADED ARROW</para></entry></row>
+							<row><entry><para>rarr2</para></entry><entry><para>&#x21C9;</para></entry><entry><para>RIGHTWARDS PAIRED ARROWS</para></entry></row>
+							<row><entry><para>rarrhk</para></entry><entry><para>&#x21AA;</para></entry><entry><para>RIGHTWARDS ARROW WITH HOOK</para></entry></row>
+							<row><entry><para>rarrlp</para></entry><entry><para>&#x21AC;</para></entry><entry><para>RIGHTWARDS ARROW WITH LOOP</para></entry></row>
+							<row><entry><para>rarrtl</para></entry><entry><para>&#x21A3;</para></entry><entry><para>RIGHTWARDS ARROW WITH TAIL</para></entry></row>
+							<row><entry><para>rarrw</para></entry><entry><para>&#x219D;</para></entry><entry><para>RIGHTWARDS SQUIGGLE ARROW</para></entry></row>
+							<row><entry><para>rhard</para></entry><entry><para>&#x21C1;</para></entry><entry><para>RIGHTWARDS HARPOON WITH BARB DOWNWARDS</para></entry></row>
+							<row><entry><para>rharu</para></entry><entry><para>&#x21C0;</para></entry><entry><para>RIGHTWARDS HARPOON WITH BARB UPWARDS</para></entry></row>
+							<row><entry><para>rsh</para></entry><entry><para>&#x21B1;</para></entry><entry><para>UPWARDS ARROW WITH TIP RIGHTWARDS</para></entry></row>
+							<row><entry><para>drarr</para></entry><entry><para>&#x2198;</para></entry><entry><para>SOUTH EAST ARROW</para></entry></row>
+							<row><entry><para>dlarr</para></entry><entry><para>&#x2199;</para></entry><entry><para>SOUTH WEST ARROW</para></entry></row>
+							<row><entry><para>uArr</para></entry><entry><para>&#x21D1;</para></entry><entry><para>UPWARDS DOUBLE ARROW</para></entry></row>
+							<row><entry><para>uarr2</para></entry><entry><para>&#x21C8;</para></entry><entry><para>UPWARDS PAIRED ARROWS</para></entry></row>
+							<row><entry><para>vArr</para></entry><entry><para>&#x21D5;</para></entry><entry><para>UP DOWN DOUBLE ARROW</para></entry></row>
+							<row><entry><para>varr</para></entry><entry><para>&#x2195;</para></entry><entry><para>UP DOWN ARROW</para></entry></row>
+							<row><entry><para>uharl</para></entry><entry><para>&#x21BF;</para></entry><entry><para>UPWARDS HARPOON WITH BARB LEFTWARDS</para></entry></row>
+							<row><entry><para>uharr</para></entry><entry><para>&#x21BE;</para></entry><entry><para>UPWARDS HARPOON WITH BARB RIGHTWARDS</para></entry></row>
+							<row><entry><para>xlArr</para></entry><entry><para>&#x21D0;</para></entry><entry><para>LEFTWARDS DOUBLE ARROW</para></entry></row>
+							<row><entry><para>xhArr</para></entry><entry><para>&#x2194;</para></entry><entry><para>LEFT RIGHT ARROW</para></entry></row>
+							<row><entry><para>xharr</para></entry><entry><para>&#x2194;</para></entry><entry><para>LEFT RIGHT ARROW</para></entry></row>
+							<row><entry><para>xrArr</para></entry><entry><para>&#x21D2;</para></entry><entry><para>RIGHTWARDS DOUBLE ARROW</para></entry></row>
+						</tbody>
+					</tgroup>
+				</table>
+				<table>
+					<title>iso-amsb.ent</title>
+					<tgroup cols="3">
+						<colspec colname="col1" colwidth="0.50*"/>
+						<colspec colname="col2" align="center" colwidth="0.40*"/>
+						<colspec colname="col3" colwidth="2.20*"/>
+						<thead>
+							<row><entry><para>ISO Entity Name</para></entry><entry><para>Unicode Entity</para></entry><entry><para>Description</para></entry></row>
+						</thead>
+						<tbody>
+							<row><entry><para>amalg</para></entry><entry><para>&#x2210;</para></entry><entry><para>N-ARY COPRODUCT</para></entry></row>
+							<row><entry><para>Barwed</para></entry><entry><para>&#x2306;</para></entry><entry><para>PERSPECTIVE</para></entry></row>
+							<row><entry><para>barwed</para></entry><entry><para>&#x22BC;</para></entry><entry><para>PROJECTIVE</para></entry></row>
+							<row><entry><para>Cap</para></entry><entry><para>&#x22D2;</para></entry><entry><para>DOUBLE INTERSECTION</para></entry></row>
+							<row><entry><para>Cup</para></entry><entry><para>&#x22D3;</para></entry><entry><para>DOUBLE UNION</para></entry></row>
+							<row><entry><para>cuvee</para></entry><entry><para>&#x22CE;</para></entry><entry><para>CURLY LOGICAL OR</para></entry></row>
+							<row><entry><para>cuwed</para></entry><entry><para>&#x22CF;</para></entry><entry><para>CURLY LOGICAL AND</para></entry></row>
+							<row><entry><para>diam</para></entry><entry><para>&#x22C4;</para></entry><entry><para>DIAMOND OPERATOR</para></entry></row>
+							<row><entry><para>divonx</para></entry><entry><para>&#x22C7;</para></entry><entry><para>DIVISION TIMES</para></entry></row>
+							<row><entry><para>intcal</para></entry><entry><para>&#x22BA;</para></entry><entry><para>INTERCALATE</para></entry></row>
+							<row><entry><para>lthree</para></entry><entry><para>&#x22CB;</para></entry><entry><para>LEFT SEMIDIRECT PRODUCT</para></entry></row>
+							<row><entry><para>ltimes</para></entry><entry><para>&#x22C9;</para></entry><entry><para>LEFT NORMAL FACTOR SEMIDIRECT PRODUCT</para></entry></row>
+							<row><entry><para>minusb</para></entry><entry><para>&#x229F;</para></entry><entry><para>SQUARED MINUS</para></entry></row>
+							<row><entry><para>oast</para></entry><entry><para>&#x229B;</para></entry><entry><para>CIRCLED ASTERISK OPERATOR</para></entry></row>
+							<row><entry><para>ocir</para></entry><entry><para>&#x229A;</para></entry><entry><para>CIRCLED RING OPERATOR</para></entry></row>
+							<row><entry><para>odash</para></entry><entry><para>&#x229D;</para></entry><entry><para>CIRCLED DASH</para></entry></row>
+							<row><entry><para>odot</para></entry><entry><para>&#x2299;</para></entry><entry><para>CIRCLED DOT OPERATOR</para></entry></row>
+							<row><entry><para>ominus</para></entry><entry><para>&#x2296;</para></entry><entry><para>CIRCLED MINUS</para></entry></row>
+							<row><entry><para>oplus</para></entry><entry><para>&#x2295;</para></entry><entry><para>CIRCLED PLUS</para></entry></row>
+							<row><entry><para>osol</para></entry><entry><para>&#x2298;</para></entry><entry><para>CIRCLED DIVISION SLASH</para></entry></row>
+							<row><entry><para>otimes</para></entry><entry><para>&#x2297;</para></entry><entry><para>CIRCLED TIMES</para></entry></row>
+							<row><entry><para>plusb</para></entry><entry><para>&#x229E;</para></entry><entry><para>SQUARED PLUS</para></entry></row>
+							<row><entry><para>plusdo</para></entry><entry><para>&#x2214;</para></entry><entry><para>DOT PLUS</para></entry></row>
+							<row><entry><para>rthree</para></entry><entry><para>&#x22CC;</para></entry><entry><para>RIGHT SEMIDIRECT PRODUCT</para></entry></row>
+							<row><entry><para>rtimes</para></entry><entry><para>&#x22CA;</para></entry><entry><para>RIGHT NORMAL FACTOR SEMIDIRECT PRODUCT</para></entry></row>
+							<row><entry><para>sdot</para></entry><entry><para>&#x22C5;</para></entry><entry><para>DOT OPERATOR</para></entry></row>
+							<row><entry><para>sdotb</para></entry><entry><para>&#x22A1;</para></entry><entry><para>SQUARED DOT OPERATOR</para></entry></row>
+							<row><entry><para>setmn</para></entry><entry><para>&#x2216;</para></entry><entry><para>SET MINUS</para></entry></row>
+							<row><entry><para>sqcap</para></entry><entry><para>&#x2293;</para></entry><entry><para>SQUARE CAP</para></entry></row>
+							<row><entry><para>sqcup</para></entry><entry><para>&#x2294;</para></entry><entry><para>SQUARE CUP</para></entry></row>
+							<row><entry><para>ssetmn</para></entry><entry><para>&#x2216;</para></entry><entry><para>SET MINUS</para></entry></row>
+							<row><entry><para>sstarf</para></entry><entry><para>&#x22C6;</para></entry><entry><para>STAR OPERATOR</para></entry></row>
+							<row><entry><para>timesb</para></entry><entry><para>&#x22A0;</para></entry><entry><para>SQUARED TIMES</para></entry></row>
+							<row><entry><para>top</para></entry><entry><para>&#x22A4;</para></entry><entry><para>DOWN TACK</para></entry></row>
+							<row><entry><para>uplus</para></entry><entry><para>&#x228E;</para></entry><entry><para>MULTISET UNION</para></entry></row>
+							<row><entry><para>wreath</para></entry><entry><para>&#x2240;</para></entry><entry><para>WREATH PRODUCT</para></entry></row>
+							<row><entry><para>xcirc</para></entry><entry><para>&#x25CB;</para></entry><entry><para>WHITE CIRCLE</para></entry></row>
+							<row><entry><para>xdtri</para></entry><entry><para>&#x25BD;</para></entry><entry><para>WHITE DOWN-POINTING TRIANGLE</para></entry></row>
+							<row><entry><para>xutri</para></entry><entry><para>&#x25B3;</para></entry><entry><para>WHITE UP-POINTING TRIANGLE</para></entry></row>
+							<row><entry><para>coprod</para></entry><entry><para>&#x2210;</para></entry><entry><para>N-ARY COPRODUCT</para></entry></row>
+							<row><entry><para>prod</para></entry><entry><para>&#x220F;</para></entry><entry><para>N-ARY PRODUCT</para></entry></row>
+							<row><entry><para>sum</para></entry><entry><para>&#x2211;</para></entry><entry><para>N-ARY SUMMATION</para></entry></row>
+						</tbody>
+					</tgroup>
+				</table>
+				<table>
+					<title>iso-amsc.ent</title>
+					<tgroup cols="3">
+						<colspec colname="col1" colwidth="0.50*"/>
+						<colspec colname="col2" align="center" colwidth="0.40*"/>
+						<colspec colname="col3" colwidth="2.20*"/>
+						<thead>
+							<row><entry><para>ISO Entity Name</para></entry><entry><para>Unicode Entity</para></entry><entry><para>Description</para></entry></row>
+						</thead>
+						<tbody>
+							<row><entry><para>rceil</para></entry><entry><para>&#x2309;</para></entry><entry><para>RIGHT CEILING</para></entry></row>
+							<row><entry><para>rfloor</para></entry><entry><para>&#x230B;</para></entry><entry><para>RIGHT FLOOR</para></entry></row>
+							<row><entry><para>rpargt</para></entry><entry><para>&#xE291;</para></entry><entry><para>RIGHT ARC GREATER-THAN BRACKET</para></entry></row>
+							<row><entry><para>urcorn</para></entry><entry><para>&#x231D;</para></entry><entry><para>TOP RIGHT CORNER</para></entry></row>
+							<row><entry><para>drcorn</para></entry><entry><para>&#x231F;</para></entry><entry><para>BOTTOM RIGHT CORNER</para></entry></row>
+							<row><entry><para>lceil</para></entry><entry><para>&#x2308;</para></entry><entry><para>LEFT CEILING</para></entry></row>
+							<row><entry><para>lfloor</para></entry><entry><para>&#x230A;</para></entry><entry><para>LEFT FLOOR</para></entry></row>
+							<row><entry><para>ulcorn</para></entry><entry><para>&#x231C;</para></entry><entry><para>TOP LEFT CORNER</para></entry></row>
+							<row><entry><para>dlcorn</para></entry><entry><para>&#x231E;</para></entry><entry><para>BOTTOM LEFT CORNER</para></entry></row>
+						</tbody>
+					</tgroup>
+				</table>
+				<table>
+					<title>iso-amsn.ent</title>
+					<tgroup cols="3">
+						<colspec colname="col1" colwidth="0.50*"/>
+						<colspec colname="col2" align="center" colwidth="0.40*"/>
+						<colspec colname="col3" colwidth="2.20*"/>
+						<thead>
+							<row><entry><para>ISO Entity Name</para></entry><entry><para>Unicode Entity</para></entry><entry><para>Description</para></entry></row>
+						</thead>
+						<tbody>
+							<row><entry><para>gnap</para></entry><entry><para>&#xE411;</para></entry><entry><para>GREATER-THAN AND NOT APPROXIMATE</para></entry></row>
+							<row><entry><para>gnE</para></entry><entry><para>&#x2269;</para></entry><entry><para>GREATER-THAN BUT NOT EQUAL TO</para></entry></row>
+							<row><entry><para>gne</para></entry><entry><para>&#x2269;</para></entry><entry><para>GREATER-THAN AND SINGLE-LINE NOT EQUAL TO</para></entry></row>
+							<row><entry><para>gnsim</para></entry><entry><para>&#x22E7;</para></entry><entry><para>GREATER-THAN BUT NOT EQUIVALENT TO</para></entry></row>
+							<row><entry><para>gvnE</para></entry><entry><para>&#x2269;</para></entry><entry><para>GREATER-THAN BUT NOT EQUAL TO</para></entry></row>
+							<row><entry><para>lnap</para></entry><entry><para>&#xE2A2;</para></entry><entry><para>LESS-THAN AND NOT APPROXIMATE</para></entry></row>
+							<row><entry><para>lnE</para></entry><entry><para>&#x2268;</para></entry><entry><para>ESS-THAN BUT NOT EQUAL TO</para></entry></row>
+							<row><entry><para>lne</para></entry><entry><para>&#x2268;</para></entry><entry><para>LESS-THAN AND SINGLE-LINE NOT EQUAL TO</para></entry></row>
+							<row><entry><para>lnsim</para></entry><entry><para>&#x22E6;</para></entry><entry><para>LESS-THAN BUT NOT EQUIVALENT TO</para></entry></row>
+							<row><entry><para>lvnE</para></entry><entry><para>&#x2268;</para></entry><entry><para>LESS-THAN BUT NOT EQUAL TO</para></entry></row>
+							<row><entry><para>nap</para></entry><entry><para>&#x2249;</para></entry><entry><para>NOT ALMOST EQUAL TO</para></entry></row>
+							<row><entry><para>ncong</para></entry><entry><para>&#x2247;</para></entry><entry><para>NEITHER APPROXIMATELY NOR ACTUALLY EQUAL TO</para></entry></row>
+							<row><entry><para>nequiv</para></entry><entry><para>&#x2262;</para></entry><entry><para>NOT IDENTICAL TO</para></entry></row>
+							<row><entry><para>ngE</para></entry><entry><para>&#x2271;</para></entry><entry><para>GREATER-THAN OVER EQUAL TO with slash</para></entry></row>
+							<row><entry><para>nge</para></entry><entry><para>&#x2271;</para></entry><entry><para>NEITHER GREATER-THAN NOR EQUAL TO</para></entry></row>
+							<row><entry><para>nges</para></entry><entry><para>&#x2271;</para></entry><entry><para>GREATER-THAN OR SLANTED EQUAL TO with slash</para></entry></row>
+							<row><entry><para>ngt</para></entry><entry><para>&#x226F;</para></entry><entry><para>NOT GREATER-THAN</para></entry></row>
+							<row><entry><para>nle</para></entry><entry><para>&#x2270;</para></entry><entry><para>NEITHER LESS-THAN NOR EQUAL TO</para></entry></row>
+							<row><entry><para>nlE</para></entry><entry><para>&#x2270;</para></entry><entry><para>LESS-THAN OVER EQUAL TO with slash</para></entry></row>
+							<row><entry><para>nles</para></entry><entry><para>&#x2270;</para></entry><entry><para>LESS-THAN OR SLANTED EQUAL TO with slash</para></entry></row>
+							<row><entry><para>nlt</para></entry><entry><para>&#x226E;</para></entry><entry><para>NOT LESS-THAN</para></entry></row>
+							<row><entry><para>nltri</para></entry><entry><para>&#x22EA;</para></entry><entry><para>NOT NORMAL SUBGROUP OF</para></entry></row>
+							<row><entry><para>nltrie</para></entry><entry><para>&#x22EC;</para></entry><entry><para>NOT NORMAL SUBGROUP OF OR EQUAL TO</para></entry></row>
+							<row><entry><para>nmid</para></entry><entry><para>&#x2224;</para></entry><entry><para>DOES NOT DIVIDE</para></entry></row>
+							<row><entry><para>npar</para></entry><entry><para>&#x2226;</para></entry><entry><para>NOT PARALLEL TO</para></entry></row>
+							<row><entry><para>npr</para></entry><entry><para>&#x2280;</para></entry><entry><para>DOES NOT PRECEDE</para></entry></row>
+							<row><entry><para>npre</para></entry><entry><para>&#x22E0;</para></entry><entry><para>DOES NOT PRECEDE OR EQUAL</para></entry></row>
+							<row><entry><para>nrtri</para></entry><entry><para>&#x22EB;</para></entry><entry><para>DOES NOT CONTAIN AS NORMAL SUBGROUP</para></entry></row>
+							<row><entry><para>nrtrie</para></entry><entry><para>&#x22ED;</para></entry><entry><para>DOES NOT CONTAIN AS NORMAL SUBGROUP OR EQUAL</para></entry></row>
+							<row><entry><para>nsc</para></entry><entry><para>&#x2281;</para></entry><entry><para>DOES NOT SUCCEED</para></entry></row>
+							<row><entry><para>nsce</para></entry><entry><para>&#x22E1;</para></entry><entry><para>DOES NOT SUCCEED OR EQUAL</para></entry></row>
+							<row><entry><para>nsim</para></entry><entry><para>&#x2241;</para></entry><entry><para>NOT TILDE</para></entry></row>
+							<row><entry><para>nsime</para></entry><entry><para>&#x2244;</para></entry><entry><para>NOT ASYMPTOTICALLY EQUAL TO</para></entry></row>
+							<row><entry><para>nsmid</para></entry><entry><para>&#xE2AA;</para></entry><entry><para>DOES NOT DIVIDE</para></entry></row>
+							<row><entry><para>nspar</para></entry><entry><para>&#x2226;</para></entry><entry><para>NOT PARALLEL TO</para></entry></row>
+							<row><entry><para>nsub</para></entry><entry><para>&#x2284;</para></entry><entry><para>NOT A SUBSET OF</para></entry></row>
+							<row><entry><para>nsube</para></entry><entry><para>&#x2288;</para></entry><entry><para>NEITHER A SUBSET OF NOR EQUAL TO</para></entry></row>
+							<row><entry><para>nsubE</para></entry><entry><para>&#x2288;</para></entry><entry><para>SUBSET OF ABOVE EQUALS SIGN with slash</para></entry></row>
+							<row><entry><para>nsup</para></entry><entry><para>&#x2285;</para></entry><entry><para>NOT A SUPERSET OF</para></entry></row>
+							<row><entry><para>nsupE</para></entry><entry><para>&#x2289;</para></entry><entry><para>SUPERSET OF ABOVE EQUALS SIGN with slash</para></entry></row>
+							<row><entry><para>nsupe</para></entry><entry><para>&#x2289;</para></entry><entry><para>NEITHER A SUPERSET OF NOR EQUAL TO</para></entry></row>
+							<row><entry><para>nvdash</para></entry><entry><para>&#x22AC;</para></entry><entry><para>DOES NOT PROVE</para></entry></row>
+							<row><entry><para>nvDash</para></entry><entry><para>&#x22AD;</para></entry><entry><para>NOT TRUE</para></entry></row>
+							<row><entry><para>nVDash</para></entry><entry><para>&#x22AF;</para></entry><entry><para>NEGATED DOUBLE VERTICAL BAR DOUBLE RIGHT TURNSTILE</para></entry></row>
+							<row><entry><para>nVdash</para></entry><entry><para>&#x22AE;</para></entry><entry><para>DOES NOT FORCE</para></entry></row>
+							<row><entry><para>prnap</para></entry><entry><para>&#x22E8;</para></entry><entry><para>PRECEDES ABOVE NOT ALMOST EQUAL TO</para></entry></row>
+							<row><entry><para>prnE</para></entry><entry><para>&#xE2B3;</para></entry><entry><para>PRECEDES ABOVE NOT EQUAL TO</para></entry></row>
+							<row><entry><para>prnsim</para></entry><entry><para>&#x22E8;</para></entry><entry><para>PRECEDES BUT NOT EQUIVALENT TO</para></entry></row>
+							<row><entry><para>scnap</para></entry><entry><para>&#x22E9;</para></entry><entry><para>SUCCEEDS ABOVE NOT ALMOST EQUAL TO</para></entry></row>
+							<row><entry><para>scnE</para></entry><entry><para>&#xE2B5;</para></entry><entry><para>SUCCEEDS ABOVE NOT EQUAL TO</para></entry></row>
+							<row><entry><para>scnsim</para></entry><entry><para>&#x22E9;</para></entry><entry><para>SUCCEEDS BUT NOT EQUIVALENT TO</para></entry></row>
+							<row><entry><para>subne</para></entry><entry><para>&#x228A;</para></entry><entry><para>SUBSET OF WITH NOT EQUAL TO</para></entry></row>
+							<row><entry><para>subnE</para></entry><entry><para>&#x228A;</para></entry><entry><para>SUBSET OF WITH NOT EQUAL TO</para></entry></row>
+							<row><entry><para>supne</para></entry><entry><para>&#x228B;</para></entry><entry><para>SUBSET OF WITH NOT EQUAL TO</para></entry></row>
+							<row><entry><para>supnE</para></entry><entry><para>&#x228B;</para></entry><entry><para>SUPERSET OF ABOVE NOT EQUAL TO</para></entry></row>
+							<row><entry><para>vsubnE</para></entry><entry><para>&#xE2B8;</para></entry><entry><para>SUBSET OF ABOVE NOT EQUAL TO - variant with stroke through bottom members</para></entry></row>
+							<row><entry><para>vsubne</para></entry><entry><para>&#x228A;</para></entry><entry><para>SUBSET OF WITH NOT EQUAL TO</para></entry></row>
+							<row><entry><para>vsupne</para></entry><entry><para>&#x228B;</para></entry><entry><para>SUPERSET OF WITH NOT EQUAL TO</para></entry></row>
+							<row><entry><para>vsupnE</para></entry><entry><para>&#x228B;</para></entry><entry><para>SUPERSET OF WITH NOT EQUAL TO</para></entry></row>
+						</tbody>
+					</tgroup>
+				</table>
+				<table>
+					<title>iso-amso.ent</title>
+					<tgroup cols="3">
+						<colspec colname="col1" colwidth="0.50*"/>
+						<colspec colname="col2" align="center" colwidth="0.40*"/>
+						<colspec colname="col3" colwidth="2.20*"/>
+						<thead>
+							<row><entry><para>ISO Entity Name</para></entry><entry><para>Unicode Entity</para></entry><entry><para>Description</para></entry></row>
+						</thead>
+						<tbody>
+							<row><entry><para>ang</para></entry><entry><para>&#x2220;</para></entry><entry><para>ANGLE</para></entry></row>
+							<row><entry><para>angmsd</para></entry><entry><para>&#x2221;</para></entry><entry><para>MEASURED ANGLE</para></entry></row>
+							<row><entry><para>beth</para></entry><entry><para>&#x2136;</para></entry><entry><para>BET SYMBOL</para></entry></row>
+							<row><entry><para>bprime</para></entry><entry><para>&#x2035;</para></entry><entry><para>REVERSED PRIME</para></entry></row>
+							<row><entry><para>comp</para></entry><entry><para>&#x2201;</para></entry><entry><para>COMPLEMENT</para></entry></row>
+							<row><entry><para>daleth</para></entry><entry><para>&#x2138;</para></entry><entry><para>DALET SYMBOL</para></entry></row>
+							<row><entry><para>ell</para></entry><entry><para>&#x2113;</para></entry><entry><para>SCRIPT SMALL L</para></entry></row>
+							<row><entry><para>empty</para></entry><entry><para>&#x2205;</para></entry><entry><para>EMPTY SET</para></entry></row>
+							<row><entry><para>gimel</para></entry><entry><para>&#x2137;</para></entry><entry><para>GIMEL SYMBOL</para></entry></row>
+							<row><entry><para>image</para></entry><entry><para>&#x2111;</para></entry><entry><para>BLACK-LETTER CAPITAL I</para></entry></row>
+							<row><entry><para>inodot</para></entry><entry><para>&#x0131;</para></entry><entry><para>LATIN SMALL LETTER DOTLESS I</para></entry></row>
+							<row><entry><para>nexist</para></entry><entry><para>&#x2204;</para></entry><entry><para>THERE DOES NOT EXIST</para></entry></row>
+							<row><entry><para>oS</para></entry><entry><para>&#x24C8;</para></entry><entry><para>CIRCLED LATIN CAPITAL LETTER S</para></entry></row>
+							<row><entry><para>planck</para></entry><entry><para>&#x210F;</para></entry><entry><para>PLANCK CONSTANT OVER TWO PI</para></entry></row>
+							<row><entry><para>real</para></entry><entry><para>&#x211C;</para></entry><entry><para>BLACK-LETTER CAPITAL R</para></entry></row>
+							<row><entry><para>sbsol</para></entry><entry><para>&#xFE68;</para></entry><entry><para>SMALL REVERSE SOLIDUS</para></entry></row>
+							<row><entry><para>vprime</para></entry><entry><para>&#x2032;</para></entry><entry><para>PRIME</para></entry></row>
+							<row><entry><para>weierp</para></entry><entry><para>&#x2118;</para></entry><entry><para>SCRIPT CAPITAL P</para></entry></row>
+						</tbody>
+					</tgroup>
+				</table>
+				<table>
+					<title>iso-amsr.ent</title>
+					<tgroup cols="3">
+						<colspec colname="col1" colwidth="0.50*"/>
+						<colspec colname="col2" align="center" colwidth="0.40*"/>
+						<colspec colname="col3" colwidth="2.20*"/>
+						<thead>
+							<row><entry><para>ISO Entity Name</para></entry><entry><para>Unicode Entity</para></entry><entry><para>Description</para></entry></row>
+						</thead>
+						<tbody>
+							<row><entry><para>ape</para></entry><entry><para>&#x224A;</para></entry><entry><para>ALMOST EQUAL OR EQUAL TO</para></entry></row>
+							<row><entry><para>asymp</para></entry><entry><para>&#x224D;</para></entry><entry><para>EQUIVALENT TO</para></entry></row>
+							<row><entry><para>bcong</para></entry><entry><para>&#x224C;</para></entry><entry><para>ALL EQUAL TO</para></entry></row>
+							<row><entry><para>bepsi</para></entry><entry><para>&#x220D;</para></entry><entry><para>SMALL CONTAINS AS MEMBER</para></entry></row>
+							<row><entry><para>bowtie</para></entry><entry><para>&#x22C8;</para></entry><entry><para>BOWTIE</para></entry></row>
+							<row><entry><para>bsim</para></entry><entry><para>&#x223D;</para></entry><entry><para>REVERSED TILDE</para></entry></row>
+							<row><entry><para>bsime</para></entry><entry><para>&#x22CD;</para></entry><entry><para>REVERSED TILDE EQUALS</para></entry></row>
+							<row><entry><para>bump</para></entry><entry><para>&#x224E;</para></entry><entry><para>GEOMETRICALLY EQUIVALENT TO</para></entry></row>
+							<row><entry><para>bumpe</para></entry><entry><para>&#x224F;</para></entry><entry><para>DIFFERENCE BETWEEN</para></entry></row>
+							<row><entry><para>cire</para></entry><entry><para>&#x2257;</para></entry><entry><para>RING EQUAL TO</para></entry></row>
+							<row><entry><para>colone</para></entry><entry><para>&#x2254;</para></entry><entry><para>COLON EQUALS</para></entry></row>
+							<row><entry><para>cuepr</para></entry><entry><para>&#x22DE;</para></entry><entry><para>EQUAL TO OR PRECEDES</para></entry></row>
+							<row><entry><para>cuesc</para></entry><entry><para>&#x22DF;</para></entry><entry><para>EQUAL TO OR SUCCEEDS</para></entry></row>
+							<row><entry><para>cupre</para></entry><entry><para>&#x227C;</para></entry><entry><para>PRECEDES OR EQUAL TO</para></entry></row>
+							<row><entry><para>dashv</para></entry><entry><para>&#x22A3;</para></entry><entry><para>LEFT TACK</para></entry></row>
+							<row><entry><para>ecir</para></entry><entry><para>&#x2256;</para></entry><entry><para>RING IN EQUAL TO</para></entry></row>
+							<row><entry><para>ecolon</para></entry><entry><para>&#x2255;</para></entry><entry><para>EQUALS COLON</para></entry></row>
+							<row><entry><para>eDot</para></entry><entry><para>&#x2251;</para></entry><entry><para>GEOMETRICALLY EQUAL TO</para></entry></row>
+							<row><entry><para>esdot</para></entry><entry><para>&#x2250;</para></entry><entry><para>APPROACHES THE LIMIT</para></entry></row>
+							<row><entry><para>efDot</para></entry><entry><para>&#x2252;</para></entry><entry><para>APPROXIMATELY EQUAL TO OR THE IMAGE OF</para></entry></row>
+							<row><entry><para>egs</para></entry><entry><para>&#x22DD;</para></entry><entry><para>EQUAL TO OR GREATER-THAN</para></entry></row>
+							<row><entry><para>els</para></entry><entry><para>&#x22DC;</para></entry><entry><para>EQUAL TO OR LESS-THAN</para></entry></row>
+							<row><entry><para>erDot</para></entry><entry><para>&#x2253;</para></entry><entry><para>IMAGE OF OR APPROXIMATELY EQUAL TO</para></entry></row>
+							<row><entry><para>fork</para></entry><entry><para>&#x22D4;</para></entry><entry><para>PITCHFORK</para></entry></row>
+							<row><entry><para>frown</para></entry><entry><para>&#x2322;</para></entry><entry><para>FROWN</para></entry></row>
+							<row><entry><para>gap</para></entry><entry><para>&#x2273;</para></entry><entry><para>GREATER-THAN OR EQUIVALENT TO</para></entry></row>
+							<row><entry><para>gsdot</para></entry><entry><para>&#x22D7;</para></entry><entry><para>GREATER-THAN WITH DOT</para></entry></row>
+							<row><entry><para>gE</para></entry><entry><para>&#x2267;</para></entry><entry><para>GREATER-THAN OVER EQUAL TO</para></entry></row>
+							<row><entry><para>gel</para></entry><entry><para>&#x22DB;</para></entry><entry><para>GREATER-THAN EQUAL TO OR LESS-THAN</para></entry></row>
+							<row><entry><para>gEl</para></entry><entry><para>&#x22DB;</para></entry><entry><para>GREATER-THAN EQUAL TO OR LESS-THAN</para></entry></row>
+							<row><entry><para>ges</para></entry><entry><para>&#x2265;</para></entry><entry><para>GREATER-THAN OR EQUAL TO</para></entry></row>
+							<row><entry><para>Gg</para></entry><entry><para>&#x22D9;</para></entry><entry><para>VERY MUCH GREATER-THAN</para></entry></row>
+							<row><entry><para>gl</para></entry><entry><para>&#x2277;</para></entry><entry><para>GREATER-THAN OR LESS-THAN</para></entry></row>
+							<row><entry><para>gsim</para></entry><entry><para>&#x2273;</para></entry><entry><para>GREATER-THAN OR EQUIVALENT TO</para></entry></row>
+							<row><entry><para>Gt</para></entry><entry><para>&#x226B;</para></entry><entry><para>MUCH GREATER-THAN</para></entry></row>
+							<row><entry><para>lap</para></entry><entry><para>&#x2272;</para></entry><entry><para>LESS-THAN OR EQUIVALENT TO</para></entry></row>
+							<row><entry><para>ldot</para></entry><entry><para>&#x22D6;</para></entry><entry><para>LESS-THAN WITH DOT</para></entry></row>
+							<row><entry><para>lE</para></entry><entry><para>&#x2266;</para></entry><entry><para>LESS-THAN OVER EQUAL TO</para></entry></row>
+							<row><entry><para>lEg</para></entry><entry><para>&#x22DA;</para></entry><entry><para>LESS-THAN EQUAL TO OR GREATER-THAN</para></entry></row>
+							<row><entry><para>leg</para></entry><entry><para>&#x22DA;</para></entry><entry><para>LESS-THAN EQUAL TO OR GREATER-THAN</para></entry></row>
+							<row><entry><para>les</para></entry><entry><para>&#x2264;</para></entry><entry><para>LESS-THAN OR EQUAL TO</para></entry></row>
+							<row><entry><para>lg</para></entry><entry><para>&#x2276;</para></entry><entry><para>LESS-THAN OR GREATER-THAN</para></entry></row>
+							<row><entry><para>Ll</para></entry><entry><para>&#x22D8;</para></entry><entry><para>VERY MUCH LESS-THAN</para></entry></row>
+							<row><entry><para>lsim</para></entry><entry><para>&#x2272;</para></entry><entry><para>LESS-THAN OR EQUIVALENT TO</para></entry></row>
+							<row><entry><para>Lt</para></entry><entry><para>&#x226A;</para></entry><entry><para>MUCH LESS-THAN</para></entry></row>
+							<row><entry><para>ltrie</para></entry><entry><para>&#x22B4;</para></entry><entry><para>NORMAL SUBGROUP OF OR EQUAL TO</para></entry></row>
+							<row><entry><para>mid</para></entry><entry><para>&#x2223;</para></entry><entry><para>DIVIDES</para></entry></row>
+							<row><entry><para>models</para></entry><entry><para>&#x22A7;</para></entry><entry><para>MODELS</para></entry></row>
+							<row><entry><para>pr</para></entry><entry><para>&#x227A;</para></entry><entry><para>PRECEDES</para></entry></row>
+							<row><entry><para>prap</para></entry><entry><para>&#x227E;</para></entry><entry><para>PRECEDES OR EQUIVALENT TO</para></entry></row>
+							<row><entry><para>pre</para></entry><entry><para>&#x227C;</para></entry><entry><para>PRECEDES OR EQUAL TO</para></entry></row>
+							<row><entry><para>prsim</para></entry><entry><para>&#x227E;</para></entry><entry><para>PRECEDES OR EQUIVALENT TO</para></entry></row>
+							<row><entry><para>rtrie</para></entry><entry><para>&#x22B5;</para></entry><entry><para>CONTAINS AS NORMAL SUBGROUP OR EQUAL TO</para></entry></row>
+							<row><entry><para>samalg</para></entry><entry><para>&#x2210;</para></entry><entry><para>N-ARY COPRODUCT</para></entry></row>
+							<row><entry><para>sc</para></entry><entry><para>&#x227B;</para></entry><entry><para>SUCCEEDS</para></entry></row>
+							<row><entry><para>scap</para></entry><entry><para>&#x227F;</para></entry><entry><para>SUCCEEDS OR EQUIVALENT TO</para></entry></row>
+							<row><entry><para>sccue</para></entry><entry><para>&#x227D;</para></entry><entry><para>SUCCEEDS OR EQUAL TO</para></entry></row>
+							<row><entry><para>sce</para></entry><entry><para>&#x227D;</para></entry><entry><para>SUCCEEDS OR EQUAL TO</para></entry></row>
+							<row><entry><para>scsim</para></entry><entry><para>&#x227F;</para></entry><entry><para>SUCCEEDS OR EQUIVALENT TO</para></entry></row>
+							<row><entry><para>sfrown</para></entry><entry><para>&#x2322;</para></entry><entry><para>FROWN</para></entry></row>
+							<row><entry><para>smid</para></entry><entry><para>&#xE301;</para></entry><entry><para>DIVIDES (&amp;#x2223;)</para></entry></row>
+							<row><entry><para>smile</para></entry><entry><para>&#x2323;</para></entry><entry><para>SMILE</para></entry></row>
+							<row><entry><para>spar</para></entry><entry><para>&#x2225;</para></entry><entry><para>PARALLEL TO</para></entry></row>
+							<row><entry><para>sqsub</para></entry><entry><para>&#x228F;</para></entry><entry><para>SQUARE IMAGE OF</para></entry></row>
+							<row><entry><para>sqsube</para></entry><entry><para>&#x2291;</para></entry><entry><para>SQUARE IMAGE OF OR EQUAL TO</para></entry></row>
+							<row><entry><para>sqsup</para></entry><entry><para>&#x2290;</para></entry><entry><para>SQUARE ORIGINAL OF</para></entry></row>
+							<row><entry><para>sqsupe</para></entry><entry><para>&#x2292;</para></entry><entry><para>SQUARE ORIGINAL OF OR EQUAL TO</para></entry></row>
+							<row><entry><para>ssmile</para></entry><entry><para>&#x2323;</para></entry><entry><para>SMILE</para></entry></row>
+							<row><entry><para>Sub</para></entry><entry><para>&#x22D0;</para></entry><entry><para>DOUBLE SUBSET</para></entry></row>
+							<row><entry><para>subE</para></entry><entry><para>&#x2286;</para></entry><entry><para>SUBSET OF OR EQUAL TO</para></entry></row>
+							<row><entry><para>Sup</para></entry><entry><para>&#x22D1;</para></entry><entry><para>DOUBLE SUPERSET</para></entry></row>
+							<row><entry><para>supE</para></entry><entry><para>&#x2287;</para></entry><entry><para>SUPERSET OF OR EQUAL TO</para></entry></row>
+							<row><entry><para>thkap</para></entry><entry><para>&#x2248;</para></entry><entry><para>ALMOST EQUAL TO</para></entry></row>
+							<row><entry><para>thksim</para></entry><entry><para>&#x223C;</para></entry><entry><para>TILDE OPERATOR</para></entry></row>
+							<row><entry><para>trie</para></entry><entry><para>&#x225C;</para></entry><entry><para>DELTA EQUAL TO</para></entry></row>
+							<row><entry><para>twixt</para></entry><entry><para>&#x226C;</para></entry><entry><para>BETWEEN</para></entry></row>
+							<row><entry><para>vdash</para></entry><entry><para>&#x22A2;</para></entry><entry><para>RIGHT TACK</para></entry></row>
+							<row><entry><para>Vdash</para></entry><entry><para>&#x22A9;</para></entry><entry><para>FORCES</para></entry></row>
+							<row><entry><para>vDash</para></entry><entry><para>&#x22A8;</para></entry><entry><para>TRUE</para></entry></row>
+							<row><entry><para>veebar</para></entry><entry><para>&#x22BB;</para></entry><entry><para>XOR</para></entry></row>
+							<row><entry><para>vltri</para></entry><entry><para>&#x22B2;</para></entry><entry><para>NORMAL SUBGROUP OF</para></entry></row>
+							<row><entry><para>vprop</para></entry><entry><para>&#x221D;</para></entry><entry><para>PROPORTIONAL TO</para></entry></row>
+							<row><entry><para>vrtri</para></entry><entry><para>&#x22B3;</para></entry><entry><para>CONTAINS AS NORMAL SUBGROUP</para></entry></row>
+							<row><entry><para>Vvdash</para></entry><entry><para>&#x22AA;</para></entry><entry><para>TRIPLE VERTICAL BAR RIGHT TURNSTILE</para></entry></row>
+						</tbody>
+					</tgroup>
+				</table>
+				<table>
+					<title>iso-box.ent</title>
+					<tgroup cols="3">
+						<colspec colname="col1" colwidth="0.50*"/>
+						<colspec colname="col2" align="center" colwidth="0.40*"/>
+						<colspec colname="col3" colwidth="2.20*"/>
+						<thead>
+							<row><entry><para>ISO Entity Name</para></entry><entry><para>Unicode Entity</para></entry><entry><para>Description</para></entry></row>
+						</thead>
+						<tbody>
+							<row><entry><para>boxh</para></entry><entry><para>&#x2500;</para></entry><entry><para>BOX DRAWINGS LIGHT HORIZONTAL</para></entry></row>
+							<row><entry><para>boxv</para></entry><entry><para>&#x2502;</para></entry><entry><para>BOX DRAWINGS LIGHT VERTICAL</para></entry></row>
+							<row><entry><para>boxur</para></entry><entry><para>&#x2514;</para></entry><entry><para>BOX DRAWINGS LIGHT UP AND RIGHT</para></entry></row>
+							<row><entry><para>boxul</para></entry><entry><para>&#x2518;</para></entry><entry><para>BOX DRAWINGS LIGHT UP AND LEFT</para></entry></row>
+							<row><entry><para>boxdl</para></entry><entry><para>&#x2510;</para></entry><entry><para>BOX DRAWINGS LIGHT DOWN AND LEFT</para></entry></row>
+							<row><entry><para>boxdr</para></entry><entry><para>&#x250C;</para></entry><entry><para>BOX DRAWINGS LIGHT DOWN AND RIGHT</para></entry></row>
+							<row><entry><para>boxvr</para></entry><entry><para>&#x251C;</para></entry><entry><para>BOX DRAWINGS LIGHT VERTICAL AND RIGHT</para></entry></row>
+							<row><entry><para>boxhu</para></entry><entry><para>&#x2534;</para></entry><entry><para>BOX DRAWINGS LIGHT UP AND HORIZONTAL</para></entry></row>
+							<row><entry><para>boxvl</para></entry><entry><para>&#x2524;</para></entry><entry><para>BOX DRAWINGS LIGHT VERTICAL AND LEFT</para></entry></row>
+							<row><entry><para>boxhd</para></entry><entry><para>&#x252C;</para></entry><entry><para>BOX DRAWINGS LIGHT DOWN AND HORIZONTAL</para></entry></row>
+							<row><entry><para>boxvh</para></entry><entry><para>&#x253C;</para></entry><entry><para>BOX DRAWINGS LIGHT VERTICAL AND HORIZONTAL</para></entry></row>
+							<row><entry><para>boxvR</para></entry><entry><para>&#x255E;</para></entry><entry><para>BOX DRAWINGS VERTICAL SINGLE AND RIGHT DOUBLE</para></entry></row>
+							<row><entry><para>boxhU</para></entry><entry><para>&#x2567;</para></entry><entry><para>BOX DRAWINGS UP SINGLE AND HORIZONTAL DOUBLE</para></entry></row>
+							<row><entry><para>boxvL</para></entry><entry><para>&#x2561;</para></entry><entry><para>BOX DRAWINGS VERTICAL SINGLE AND LEFT DOUBLE</para></entry></row>
+							<row><entry><para>boxhD</para></entry><entry><para>&#x2564;</para></entry><entry><para>BOX DRAWINGS DOWN SINGLE AND HORIZONTAL DOUBLE</para></entry></row>
+							<row><entry><para>boxvH</para></entry><entry><para>&#x256A;</para></entry><entry><para>BOX DRAWINGS VERTICAL SINGLE AND HORIZONTAL DOUBLE</para></entry></row>
+							<row><entry><para>boxH</para></entry><entry><para>&#x2550;</para></entry><entry><para>BOX DRAWINGS DOUBLE HORIZONTAL</para></entry></row>
+							<row><entry><para>boxV</para></entry><entry><para>&#x2551;</para></entry><entry><para>BOX DRAWINGS DOUBLE VERTICAL</para></entry></row>
+							<row><entry><para>boxUR</para></entry><entry><para>&#x2558;</para></entry><entry><para>BOX DRAWINGS UP SINGLE AND RIGHT DOUBLE</para></entry></row>
+							<row><entry><para>boxUL</para></entry><entry><para>&#x255B;</para></entry><entry><para>BOX DRAWINGS UP SINGLE AND LEFT DOUBLE</para></entry></row>
+							<row><entry><para>boxDL</para></entry><entry><para>&#x2555;</para></entry><entry><para>BOX DRAWINGS DOWN SINGLE AND LEFT DOUBLE</para></entry></row>
+							<row><entry><para>boxDR</para></entry><entry><para>&#x2552;</para></entry><entry><para>BOX DRAWINGS DOWN SINGLE AND RIGHT DOUBLE</para></entry></row>
+							<row><entry><para>boxVR</para></entry><entry><para>&#x255F;</para></entry><entry><para>BOX DRAWINGS VERTICAL DOUBLE AND RIGHT SINGLE</para></entry></row>
+							<row><entry><para>boxHU</para></entry><entry><para>&#x2568;</para></entry><entry><para>BOX DRAWINGS UP DOUBLE AND HORIZONTAL SINGLE</para></entry></row>
+							<row><entry><para>boxVL</para></entry><entry><para>&#x2562;</para></entry><entry><para>BOX DRAWINGS VERTICAL DOUBLE AND LEFT SINGLE</para></entry></row>
+							<row><entry><para>boxHD</para></entry><entry><para>&#x2565;</para></entry><entry><para>BOX DRAWINGS DOWN DOUBLE AND HORIZONTAL SINGLE</para></entry></row>
+							<row><entry><para>boxVH</para></entry><entry><para>&#x256B;</para></entry><entry><para>BOX DRAWINGS VERTICAL DOUBLE AND HORIZONTAL SINGLE</para></entry></row>
+							<row><entry><para>boxVr</para></entry><entry><para>&#x2560;</para></entry><entry><para>BOX DRAWINGS DOUBLE VERTICAL AND RIGHT</para></entry></row>
+							<row><entry><para>boxHu</para></entry><entry><para>&#x2569;</para></entry><entry><para>BOX DRAWINGS DOUBLE UP AND HORIZONTAL</para></entry></row>
+							<row><entry><para>boxVl</para></entry><entry><para>&#x2563;</para></entry><entry><para>BOX DRAWINGS DOUBLE VERTICAL AND LEFT</para></entry></row>
+							<row><entry><para>boxHd</para></entry><entry><para>&#x2566;</para></entry><entry><para>BOX DRAWINGS DOUBLE DOWN AND HORIZONTAL</para></entry></row>
+							<row><entry><para>boxVh</para></entry><entry><para>&#x256C;</para></entry><entry><para>BOX DRAWINGS DOUBLE VERTICAL AND HORIZONTAL</para></entry></row>
+							<row><entry><para>boxuR</para></entry><entry><para>&#x2559;</para></entry><entry><para>BOX DRAWINGS UP DOUBLE AND RIGHT SINGLE</para></entry></row>
+							<row><entry><para>boxUl</para></entry><entry><para>&#x255C;</para></entry><entry><para>BOX DRAWINGS UP DOUBLE AND LEFT SINGLE</para></entry></row>
+							<row><entry><para>boxdL</para></entry><entry><para>&#x2556;</para></entry><entry><para>BOX DRAWINGS DOWN DOUBLE AND LEFT SINGLE</para></entry></row>
+							<row><entry><para>boxDr</para></entry><entry><para>&#x2553;</para></entry><entry><para>BOX DRAWINGS DOWN DOUBLE AND RIGHT SINGLE</para></entry></row>
+							<row><entry><para>boxUr</para></entry><entry><para>&#x255A;</para></entry><entry><para>BOX DRAWINGS DOUBLE UP AND RIGHT</para></entry></row>
+							<row><entry><para>boxuL</para></entry><entry><para>&#x255D;</para></entry><entry><para>BOX DRAWINGS DOUBLE UP AND LEFT</para></entry></row>
+							<row><entry><para>boxDl</para></entry><entry><para>&#x2557;</para></entry><entry><para>BOX DRAWINGS DOUBLE DOWN AND LEFT</para></entry></row>
+							<row><entry><para>boxdR</para></entry><entry><para>&#x2554;</para></entry><entry><para>BOX DRAWINGS DOUBLE DOWN AND RIGHT</para></entry></row>
+						</tbody>
+					</tgroup>
+				</table>
+				<table>
+					<title>iso-cyr1.ent</title>
+					<tgroup cols="3">
+						<colspec colname="col1" colwidth="0.50*"/>
+						<colspec colname="col2" align="center" colwidth="0.40*"/>
+						<colspec colname="col3" colwidth="2.20*"/>
+						<thead>
+							<row><entry><para>ISO Entity Name</para></entry><entry><para>Unicode Entity</para></entry><entry><para>Description</para></entry></row>
+						</thead>
+						<tbody>
+							<row><entry><para>acy</para></entry><entry><para>&#x0430;</para></entry><entry><para>CYRILLIC SMALL LETTER A</para></entry></row>
+							<row><entry><para>Acy</para></entry><entry><para>&#x0410;</para></entry><entry><para>CYRILLIC CAPITAL LETTER A</para></entry></row>
+							<row><entry><para>bcy</para></entry><entry><para>&#x0431;</para></entry><entry><para>CYRILLIC SMALL LETTER BE</para></entry></row>
+							<row><entry><para>Bcy</para></entry><entry><para>&#x0411;</para></entry><entry><para>CYRILLIC CAPITAL LETTER BE</para></entry></row>
+							<row><entry><para>vcy</para></entry><entry><para>&#x0432;</para></entry><entry><para>CYRILLIC SMALL LETTER VE</para></entry></row>
+							<row><entry><para>Vcy</para></entry><entry><para>&#x0412;</para></entry><entry><para>CYRILLIC CAPITAL LETTER VE</para></entry></row>
+							<row><entry><para>gcy</para></entry><entry><para>&#x0433;</para></entry><entry><para>CYRILLIC SMALL LETTER GHE</para></entry></row>
+							<row><entry><para>Gcy</para></entry><entry><para>&#x0413;</para></entry><entry><para>CYRILLIC CAPITAL LETTER GHE</para></entry></row>
+							<row><entry><para>dcy</para></entry><entry><para>&#x0434;</para></entry><entry><para>CYRILLIC SMALL LETTER DE</para></entry></row>
+							<row><entry><para>Dcy</para></entry><entry><para>&#x0414;</para></entry><entry><para>CYRILLIC CAPITAL LETTER DE</para></entry></row>
+							<row><entry><para>iecy</para></entry><entry><para>&#x0435;</para></entry><entry><para>CYRILLIC SMALL LETTER IE</para></entry></row>
+							<row><entry><para>IEcy</para></entry><entry><para>&#x0415;</para></entry><entry><para>CYRILLIC CAPITAL LETTER IE</para></entry></row>
+							<row><entry><para>iocy</para></entry><entry><para>&#x0451;</para></entry><entry><para>CYRILLIC SMALL LETTER IO</para></entry></row>
+							<row><entry><para>IOcy</para></entry><entry><para>&#x0401;</para></entry><entry><para>CYRILLIC CAPITAL LETTER IO</para></entry></row>
+							<row><entry><para>zhcy</para></entry><entry><para>&#x0436;</para></entry><entry><para>CYRILLIC SMALL LETTER ZHE</para></entry></row>
+							<row><entry><para>ZHcy</para></entry><entry><para>&#x0416;</para></entry><entry><para>CYRILLIC CAPITAL LETTER ZHE</para></entry></row>
+							<row><entry><para>zcy</para></entry><entry><para>&#x0437;</para></entry><entry><para>CYRILLIC SMALL LETTER ZE</para></entry></row>
+							<row><entry><para>Zcy</para></entry><entry><para>&#x0417;</para></entry><entry><para>CYRILLIC CAPITAL LETTER ZE</para></entry></row>
+							<row><entry><para>icy</para></entry><entry><para>&#x0438;</para></entry><entry><para>CYRILLIC SMALL LETTER I</para></entry></row>
+							<row><entry><para>Icy</para></entry><entry><para>&#x0418;</para></entry><entry><para>CYRILLIC CAPITAL LETTER I</para></entry></row>
+							<row><entry><para>jcy</para></entry><entry><para>&#x0439;</para></entry><entry><para>CYRILLIC SMALL LETTER SHORT I</para></entry></row>
+							<row><entry><para>Jcy</para></entry><entry><para>&#x0419;</para></entry><entry><para>CYRILLIC CAPITAL LETTER SHORT I</para></entry></row>
+							<row><entry><para>kcy</para></entry><entry><para>&#x043A;</para></entry><entry><para>CYRILLIC SMALL LETTER KA</para></entry></row>
+							<row><entry><para>Kcy</para></entry><entry><para>&#x041A;</para></entry><entry><para>CYRILLIC CAPITAL LETTER KA</para></entry></row>
+							<row><entry><para>lcy</para></entry><entry><para>&#x043B;</para></entry><entry><para>CYRILLIC SMALL LETTER EL</para></entry></row>
+							<row><entry><para>Lcy</para></entry><entry><para>&#x041B;</para></entry><entry><para>CYRILLIC CAPITAL LETTER EL</para></entry></row>
+							<row><entry><para>mcy</para></entry><entry><para>&#x043C;</para></entry><entry><para>CYRILLIC SMALL LETTER EM</para></entry></row>
+							<row><entry><para>Mcy</para></entry><entry><para>&#x041C;</para></entry><entry><para>CYRILLIC CAPITAL LETTER EM</para></entry></row>
+							<row><entry><para>ncy</para></entry><entry><para>&#x043D;</para></entry><entry><para>CYRILLIC SMALL LETTER EN</para></entry></row>
+							<row><entry><para>Ncy</para></entry><entry><para>&#x041D;</para></entry><entry><para>CYRILLIC CAPITAL LETTER EN</para></entry></row>
+							<row><entry><para>ocy</para></entry><entry><para>&#x043E;</para></entry><entry><para>CYRILLIC SMALL LETTER O</para></entry></row>
+							<row><entry><para>Ocy</para></entry><entry><para>&#x041E;</para></entry><entry><para>CYRILLIC CAPITAL LETTER O</para></entry></row>
+							<row><entry><para>pcy</para></entry><entry><para>&#x043F;</para></entry><entry><para>CYRILLIC SMALL LETTER PE</para></entry></row>
+							<row><entry><para>Pcy</para></entry><entry><para>&#x041F;</para></entry><entry><para>CYRILLIC CAPITAL LETTER PE</para></entry></row>
+							<row><entry><para>rcy</para></entry><entry><para>&#x0440;</para></entry><entry><para>CYRILLIC SMALL LETTER ER</para></entry></row>
+							<row><entry><para>Rcy</para></entry><entry><para>&#x0420;</para></entry><entry><para>CYRILLIC CAPITAL LETTER ER</para></entry></row>
+							<row><entry><para>scy</para></entry><entry><para>&#x0441;</para></entry><entry><para>CYRILLIC SMALL LETTER ES</para></entry></row>
+							<row><entry><para>Scy</para></entry><entry><para>&#x0421;</para></entry><entry><para>CYRILLIC CAPITAL LETTER ES</para></entry></row>
+							<row><entry><para>tcy</para></entry><entry><para>&#x0442;</para></entry><entry><para>CYRILLIC SMALL LETTER TE</para></entry></row>
+							<row><entry><para>Tcy</para></entry><entry><para>&#x0422;</para></entry><entry><para>CYRILLIC CAPITAL LETTER TE</para></entry></row>
+							<row><entry><para>ucy</para></entry><entry><para>&#x0443;</para></entry><entry><para>CYRILLIC SMALL LETTER U</para></entry></row>
+							<row><entry><para>Ucy</para></entry><entry><para>&#x0423;</para></entry><entry><para>CYRILLIC CAPITAL LETTER U</para></entry></row>
+							<row><entry><para>fcy</para></entry><entry><para>&#x0444;</para></entry><entry><para>CYRILLIC SMALL LETTER EF</para></entry></row>
+							<row><entry><para>Fcy</para></entry><entry><para>&#x0424;</para></entry><entry><para>CYRILLIC CAPITAL LETTER EF</para></entry></row>
+							<row><entry><para>khcy</para></entry><entry><para>&#x0445;</para></entry><entry><para>CYRILLIC SMALL LETTER HA</para></entry></row>
+							<row><entry><para>KHcy</para></entry><entry><para>&#x0425;</para></entry><entry><para>CYRILLIC CAPITAL LETTER HA</para></entry></row>
+							<row><entry><para>tscy</para></entry><entry><para>&#x0446;</para></entry><entry><para>CYRILLIC SMALL LETTER TSE</para></entry></row>
+							<row><entry><para>TScy</para></entry><entry><para>&#x0426;</para></entry><entry><para>CYRILLIC CAPITAL LETTER TSE</para></entry></row>
+							<row><entry><para>chcy</para></entry><entry><para>&#x0447;</para></entry><entry><para>CYRILLIC SMALL LETTER CHE</para></entry></row>
+							<row><entry><para>CHcy</para></entry><entry><para>&#x0427;</para></entry><entry><para>CYRILLIC CAPITAL LETTER CHE</para></entry></row>
+							<row><entry><para>shcy</para></entry><entry><para>&#x0448;</para></entry><entry><para>CYRILLIC SMALL LETTER SHA</para></entry></row>
+							<row><entry><para>SHcy</para></entry><entry><para>&#x0428;</para></entry><entry><para>CYRILLIC CAPITAL LETTER SHA</para></entry></row>
+							<row><entry><para>shchcy</para></entry><entry><para>&#x0449;</para></entry><entry><para>CYRILLIC SMALL LETTER SHCHA</para></entry></row>
+							<row><entry><para>SHCHcy</para></entry><entry><para>&#x0429;</para></entry><entry><para>CYRILLIC CAPITAL LETTER SHCHA</para></entry></row>
+							<row><entry><para>hardcy</para></entry><entry><para>&#x044A;</para></entry><entry><para>CYRILLIC SMALL LETTER HARD SIGN</para></entry></row>
+							<row><entry><para>HARDcy</para></entry><entry><para>&#x042A;</para></entry><entry><para>CYRILLIC CAPITAL LETTER HARD SIGN</para></entry></row>
+							<row><entry><para>ycy</para></entry><entry><para>&#x044B;</para></entry><entry><para>CYRILLIC SMALL LETTER YERU</para></entry></row>
+							<row><entry><para>Ycy</para></entry><entry><para>&#x042B;</para></entry><entry><para>CYRILLIC CAPITAL LETTER YERU</para></entry></row>
+							<row><entry><para>softcy</para></entry><entry><para>&#x044C;</para></entry><entry><para>CYRILLIC SMALL LETTER SOFT SIGN</para></entry></row>
+							<row><entry><para>SOFTcy</para></entry><entry><para>&#x042C;</para></entry><entry><para>CYRILLIC CAPITAL LETTER SOFT SIGN</para></entry></row>
+							<row><entry><para>ecy</para></entry><entry><para>&#x044D;</para></entry><entry><para>CYRILLIC SMALL LETTER E</para></entry></row>
+							<row><entry><para>Ecy</para></entry><entry><para>&#x042D;</para></entry><entry><para>CYRILLIC CAPITAL LETTER E</para></entry></row>
+							<row><entry><para>yucy</para></entry><entry><para>&#x044E;</para></entry><entry><para>CYRILLIC SMALL LETTER YU</para></entry></row>
+							<row><entry><para>YUcy</para></entry><entry><para>&#x042E;</para></entry><entry><para>CYRILLIC CAPITAL LETTER YU</para></entry></row>
+							<row><entry><para>yacy</para></entry><entry><para>&#x044F;</para></entry><entry><para>CYRILLIC SMALL LETTER YA</para></entry></row>
+							<row><entry><para>YAcy</para></entry><entry><para>&#x042F;</para></entry><entry><para>CYRILLIC CAPITAL LETTER YA</para></entry></row>
+							<row><entry><para>numero</para></entry><entry><para>&#x2116;</para></entry><entry><para>NUMERO SIGN</para></entry></row>
+						</tbody>
+					</tgroup>
+				</table>
+				<table>
+					<title>iso-cyr2.ent</title>
+					<tgroup cols="3">
+						<colspec colname="col1" colwidth="0.50*"/>
+						<colspec colname="col2" align="center" colwidth="0.40*"/>
+						<colspec colname="col3" colwidth="2.20*"/>
+						<thead>
+							<row><entry><para>ISO Entity Name</para></entry><entry><para>Unicode Entity</para></entry><entry><para>Description</para></entry></row>
+						</thead>
+						<tbody>
+							<row><entry><para>djcy</para></entry><entry><para>&#x0452;</para></entry><entry><para>CYRILLIC SMALL LETTER DJE</para></entry></row>
+							<row><entry><para>DJcy</para></entry><entry><para>&#x0402;</para></entry><entry><para>CYRILLIC CAPITAL LETTER DJE</para></entry></row>
+							<row><entry><para>gjcy</para></entry><entry><para>&#x0453;</para></entry><entry><para>CYRILLIC SMALL LETTER GJE</para></entry></row>
+							<row><entry><para>GJcy</para></entry><entry><para>&#x0403;</para></entry><entry><para>CYRILLIC CAPITAL LETTER GJE</para></entry></row>
+							<row><entry><para>jukcy</para></entry><entry><para>&#x0454;</para></entry><entry><para>CYRILLIC SMALL LETTER UKRAINIAN IE</para></entry></row>
+							<row><entry><para>Jukcy</para></entry><entry><para>&#x0404;</para></entry><entry><para>CYRILLIC CAPITAL LETTER UKRAINIAN IE</para></entry></row>
+							<row><entry><para>dscy</para></entry><entry><para>&#x0455;</para></entry><entry><para>CYRILLIC SMALL LETTER DZE</para></entry></row>
+							<row><entry><para>DScy</para></entry><entry><para>&#x0405;</para></entry><entry><para>CYRILLIC CAPITAL LETTER DZE</para></entry></row>
+							<row><entry><para>iukcy</para></entry><entry><para>&#x0456;</para></entry><entry><para>CYRILLIC SMALL LETTER BYELORUSSIAN-UKRAINIAN I</para></entry></row>
+							<row><entry><para>Iukcy</para></entry><entry><para>&#x0406;</para></entry><entry><para>CYRILLIC CAPITAL LETTER BYELORUSSIAN-UKRAINIAN I</para></entry></row>
+							<row><entry><para>yicy</para></entry><entry><para>&#x0457;</para></entry><entry><para>CYRILLIC SMALL LETTER YI</para></entry></row>
+							<row><entry><para>YIcy</para></entry><entry><para>&#x0407;</para></entry><entry><para>CYRILLIC CAPITAL LETTER YI</para></entry></row>
+							<row><entry><para>jsercy</para></entry><entry><para>&#x0458;</para></entry><entry><para>CYRILLIC SMALL LETTER JE</para></entry></row>
+							<row><entry><para>Jsercy</para></entry><entry><para>&#x0408;</para></entry><entry><para>CYRILLIC CAPITAL LETTER JE</para></entry></row>
+							<row><entry><para>ljcy</para></entry><entry><para>&#x0459;</para></entry><entry><para>CYRILLIC SMALL LETTER LJE</para></entry></row>
+							<row><entry><para>LJcy</para></entry><entry><para>&#x0409;</para></entry><entry><para>CYRILLIC CAPITAL LETTER LJE</para></entry></row>
+							<row><entry><para>njcy</para></entry><entry><para>&#x045A;</para></entry><entry><para>CYRILLIC SMALL LETTER NJE</para></entry></row>
+							<row><entry><para>NJcy</para></entry><entry><para>&#x040A;</para></entry><entry><para>CYRILLIC CAPITAL LETTER NJE</para></entry></row>
+							<row><entry><para>tshcy</para></entry><entry><para>&#x045B;</para></entry><entry><para>CYRILLIC SMALL LETTER TSHE</para></entry></row>
+							<row><entry><para>TSHcy</para></entry><entry><para>&#x040B;</para></entry><entry><para>CYRILLIC CAPITAL LETTER TSHE</para></entry></row>
+							<row><entry><para>kjcy</para></entry><entry><para>&#x045C;</para></entry><entry><para>CYRILLIC SMALL LETTER KJE</para></entry></row>
+							<row><entry><para>KJcy</para></entry><entry><para>&#x040C;</para></entry><entry><para>CYRILLIC CAPITAL LETTER KJE</para></entry></row>
+							<row><entry><para>ubrcy</para></entry><entry><para>&#x045E;</para></entry><entry><para>CYRILLIC SMALL LETTER SHORT U</para></entry></row>
+							<row><entry><para>Ubrcy</para></entry><entry><para>&#x040E;</para></entry><entry><para>CYRILLIC CAPITAL LETTER SHORT U</para></entry></row>
+							<row><entry><para>dzcy</para></entry><entry><para>&#x045F;</para></entry><entry><para>CYRILLIC SMALL LETTER DZHE</para></entry></row>
+							<row><entry><para>DZcy</para></entry><entry><para>&#x040F;</para></entry><entry><para>CYRILLIC CAPITAL LETTER DZHE</para></entry></row>
+						</tbody>
+					</tgroup>
+				</table>
+				<table>
+					<title>iso-dia.ent</title>
+					<tgroup cols="3">
+						<colspec colname="col1" colwidth="0.50*"/>
+						<colspec colname="col2" align="center" colwidth="0.40*"/>
+						<colspec colname="col3" colwidth="2.20*"/>
+						<thead>
+							<row><entry><para>ISO Entity Name</para></entry><entry><para>Unicode Entity</para></entry><entry><para>Description</para></entry></row>
+						</thead>
+						<tbody>
+							<row><entry><para>acute</para></entry><entry><para>&#x00B4;</para></entry><entry><para>ACUTE ACCENT</para></entry></row>
+							<row><entry><para>breve</para></entry><entry><para>&#x02D8;</para></entry><entry><para>BREVE</para></entry></row>
+							<row><entry><para>caron</para></entry><entry><para>&#x02C7;</para></entry><entry><para>CARON</para></entry></row>
+							<row><entry><para>cedil</para></entry><entry><para>&#x00B8;</para></entry><entry><para>CEDILLA</para></entry></row>
+							<row><entry><para>circ</para></entry><entry><para>&#x005E;</para></entry><entry><para>RING OPERATOR</para></entry></row>
+							<row><entry><para>dblac</para></entry><entry><para>&#x02DD;</para></entry><entry><para>DOUBLE ACUTE ACCENT</para></entry></row>
+							<row><entry><para>die</para></entry><entry><para>&#x00A8;</para></entry><entry><para>DIAERESIS</para></entry></row>
+							<row><entry><para>dot</para></entry><entry><para>&#x02D9;</para></entry><entry><para>DOT ABOVE</para></entry></row>
+							<row><entry><para>grave</para></entry><entry><para>&#x0060;</para></entry><entry><para>GRAVE ACCENT</para></entry></row>
+							<row><entry><para>macr</para></entry><entry><para>&#x00AF;</para></entry><entry><para>MACRON</para></entry></row>
+							<row><entry><para>ogon</para></entry><entry><para>&#x02DB;</para></entry><entry><para>OGONEK</para></entry></row>
+							<row><entry><para>ring</para></entry><entry><para>&#x02DA;</para></entry><entry><para>RING ABOVE</para></entry></row>
+							<row><entry><para>tilde</para></entry><entry><para>&#x02DC;</para></entry><entry><para>TILDE</para></entry></row>
+							<row><entry><para>uml</para></entry><entry><para>&#x00A8;</para></entry><entry><para>DIAERESIS</para></entry></row>
+						</tbody>
+					</tgroup>
+				</table>
+				<table>
+					<title>iso-grk1.ent</title>
+					<tgroup cols="3">
+						<colspec colname="col1" colwidth="0.50*"/>
+						<colspec colname="col2" align="center" colwidth="0.40*"/>
+						<colspec colname="col3" colwidth="2.20*"/>
+						<thead>
+							<row><entry><para>ISO Entity Name</para></entry><entry><para>Unicode Entity</para></entry><entry><para>Description</para></entry></row>
+						</thead>
+						<tbody>
+							<row><entry><para>agr</para></entry><entry><para>&#x03B1;</para></entry><entry><para>GREEK SMALL LETTER ALPHA</para></entry></row>
+							<row><entry><para>Agr</para></entry><entry><para>&#x0391;</para></entry><entry><para>GREEK CAPITAL LETTER ALPHA</para></entry></row>
+							<row><entry><para>bgr</para></entry><entry><para>&#x03B2;</para></entry><entry><para>GREEK SMALL LETTER BETA</para></entry></row>
+							<row><entry><para>Bgr</para></entry><entry><para>&#x0392;</para></entry><entry><para>GREEK CAPITAL LETTER BETA</para></entry></row>
+							<row><entry><para>ggr</para></entry><entry><para>&#x03B3;</para></entry><entry><para>GREEK SMALL LETTER GAMMA</para></entry></row>
+							<row><entry><para>Ggr</para></entry><entry><para>&#x0393;</para></entry><entry><para>GREEK CAPITAL LETTER GAMMA</para></entry></row>
+							<row><entry><para>dgr</para></entry><entry><para>&#x03B4;</para></entry><entry><para>GREEK SMALL LETTER DELTA</para></entry></row>
+							<row><entry><para>Dgr</para></entry><entry><para>&#x0394;</para></entry><entry><para>GREEK CAPITAL LETTER DELTA</para></entry></row>
+							<row><entry><para>egr</para></entry><entry><para>&#x03B5;</para></entry><entry><para>GREEK SMALL LETTER EPSILON</para></entry></row>
+							<row><entry><para>Egr</para></entry><entry><para>&#x0395;</para></entry><entry><para>GREEK CAPITAL LETTER EPSILON</para></entry></row>
+							<row><entry><para>zgr</para></entry><entry><para>&#x03B6;</para></entry><entry><para>GREEK SMALL LETTER ZETA</para></entry></row>
+							<row><entry><para>Zgr</para></entry><entry><para>&#x0396;</para></entry><entry><para>GREEK CAPITAL LETTER ZETA</para></entry></row>
+							<row><entry><para>eegr</para></entry><entry><para>&#x03B7;</para></entry><entry><para>GREEK SMALL LETTER ETA</para></entry></row>
+							<row><entry><para>EEgr</para></entry><entry><para>&#x0397;</para></entry><entry><para>GREEK CAPITAL LETTER ETA</para></entry></row>
+							<row><entry><para>thgr</para></entry><entry><para>&#x03B8;</para></entry><entry><para>GREEK SMALL LETTER THETA</para></entry></row>
+							<row><entry><para>THgr</para></entry><entry><para>&#x0398;</para></entry><entry><para>GREEK CAPITAL LETTER THETA</para></entry></row>
+							<row><entry><para>igr</para></entry><entry><para>&#x03B9;</para></entry><entry><para>GREEK SMALL LETTER IOTA</para></entry></row>
+							<row><entry><para>Igr</para></entry><entry><para>&#x0399;</para></entry><entry><para>GREEK CAPITAL LETTER IOTA</para></entry></row>
+							<row><entry><para>kgr</para></entry><entry><para>&#x03BA;</para></entry><entry><para>GREEK SMALL LETTER KAPPA</para></entry></row>
+							<row><entry><para>Kgr</para></entry><entry><para>&#x039A;</para></entry><entry><para>GREEK CAPITAL LETTER KAPPA</para></entry></row>
+							<row><entry><para>lgr</para></entry><entry><para>&#x03BB;</para></entry><entry><para>GREEK SMALL LETTER LAMDA</para></entry></row>
+							<row><entry><para>Lgr</para></entry><entry><para>&#x039B;</para></entry><entry><para>GREEK CAPITAL LETTER LAMDA</para></entry></row>
+							<row><entry><para>mgr</para></entry><entry><para>&#x03BC;</para></entry><entry><para>GREEK SMALL LETTER MU</para></entry></row>
+							<row><entry><para>Mgr</para></entry><entry><para>&#x039C;</para></entry><entry><para>GREEK CAPITAL LETTER MU</para></entry></row>
+							<row><entry><para>ngr</para></entry><entry><para>&#x03BD;</para></entry><entry><para>GREEK SMALL LETTER NU</para></entry></row>
+							<row><entry><para>Ngr</para></entry><entry><para>&#x039D;</para></entry><entry><para>GREEK CAPITAL LETTER NU</para></entry></row>
+							<row><entry><para>xgr</para></entry><entry><para>&#x03BE;</para></entry><entry><para>GREEK SMALL LETTER XI</para></entry></row>
+							<row><entry><para>Xgr</para></entry><entry><para>&#x039E;</para></entry><entry><para>GREEK CAPITAL LETTER XI</para></entry></row>
+							<row><entry><para>ogr</para></entry><entry><para>&#x03BF;</para></entry><entry><para>GREEK SMALL LETTER OMICRON</para></entry></row>
+							<row><entry><para>Ogr</para></entry><entry><para>&#x039F;</para></entry><entry><para>GREEK CAPITAL LETTER OMICRON</para></entry></row>
+							<row><entry><para>pgr</para></entry><entry><para>&#x03C0;</para></entry><entry><para>GREEK SMALL LETTER PI</para></entry></row>
+							<row><entry><para>Pgr</para></entry><entry><para>&#x03A0;</para></entry><entry><para>GREEK CAPITAL LETTER PI</para></entry></row>
+							<row><entry><para>rgr</para></entry><entry><para>&#x03C1;</para></entry><entry><para>GREEK SMALL LETTER RHO</para></entry></row>
+							<row><entry><para>Rgr</para></entry><entry><para>&#x03A1;</para></entry><entry><para>GREEK CAPITAL LETTER RHO</para></entry></row>
+							<row><entry><para>sgr</para></entry><entry><para>&#x03C3;</para></entry><entry><para>GREEK SMALL LETTER SIGMA</para></entry></row>
+							<row><entry><para>Sgr</para></entry><entry><para>&#x03A3;</para></entry><entry><para>GREEK CAPITAL LETTER SIGMA</para></entry></row>
+							<row><entry><para>sfgr</para></entry><entry><para>&#x03C2;</para></entry><entry><para>GREEK SMALL LETTER FINAL SIGMA</para></entry></row>
+							<row><entry><para>tgr</para></entry><entry><para>&#x03C4;</para></entry><entry><para>GREEK SMALL LETTER TAU</para></entry></row>
+							<row><entry><para>Tgr</para></entry><entry><para>&#x03A4;</para></entry><entry><para>GREEK CAPITAL LETTER TAU</para></entry></row>
+							<row><entry><para>ugr</para></entry><entry><para>&#x03C5;</para></entry><entry><para>GREEK SMALL LETTER UPSILON</para></entry></row>
+							<row><entry><para>Ugr</para></entry><entry><para>&#x03A5;</para></entry><entry><para>GREEK CAPITAL LETTER UPSILON</para></entry></row>
+							<row><entry><para>phgr</para></entry><entry><para>&#x03C6;</para></entry><entry><para>GREEK SMALL LETTER PHI</para></entry></row>
+							<row><entry><para>PHgr</para></entry><entry><para>&#x03A6;</para></entry><entry><para>GREEK CAPITAL LETTER PHI</para></entry></row>
+							<row><entry><para>khgr</para></entry><entry><para>&#x03C7;</para></entry><entry><para>GREEK SMALL LETTER CHI</para></entry></row>
+							<row><entry><para>KHgr</para></entry><entry><para>&#x03A7;</para></entry><entry><para>GREEK CAPITAL LETTER CHI</para></entry></row>
+							<row><entry><para>psgr</para></entry><entry><para>&#x03C8;</para></entry><entry><para>GREEK SMALL LETTER PSI</para></entry></row>
+							<row><entry><para>PSgr</para></entry><entry><para>&#x03A8;</para></entry><entry><para>GREEK CAPITAL LETTER PSI</para></entry></row>
+							<row><entry><para>ohgr</para></entry><entry><para>&#x03C9;</para></entry><entry><para>GREEK SMALL LETTER OMEGA</para></entry></row>
+							<row><entry><para>OHgr</para></entry><entry><para>&#x03A9;</para></entry><entry><para>GREEK CAPITAL LETTER OMEGA</para></entry></row>
+						</tbody>
+					</tgroup>
+				</table>
+				<table>
+					<title>iso-grk2.ent</title>
+					<tgroup cols="3">
+						<colspec colname="col1" colwidth="0.50*"/>
+						<colspec colname="col2" align="center" colwidth="0.40*"/>
+						<colspec colname="col3" colwidth="2.20*"/>
+						<thead>
+							<row><entry><para>ISO Entity Name</para></entry><entry><para>Unicode Entity</para></entry><entry><para>Description</para></entry></row>
+						</thead>
+						<tbody>
+							<row><entry><para>aacgr</para></entry><entry><para>&#x03AC;</para></entry><entry><para>GREEK SMALL LETTER ALPHA WITH TONOS</para></entry></row>
+							<row><entry><para>Aacgr</para></entry><entry><para>&#x0386;</para></entry><entry><para>GREEK CAPITAL LETTER ALPHA WITH TONOS</para></entry></row>
+							<row><entry><para>eacgr</para></entry><entry><para>&#x03AD;</para></entry><entry><para>GREEK SMALL LETTER EPSILON WITH TONOS</para></entry></row>
+							<row><entry><para>Eacgr</para></entry><entry><para>&#x0388;</para></entry><entry><para>GREEK CAPITAL LETTER EPSILON WITH TONOS</para></entry></row>
+							<row><entry><para>eeacgr</para></entry><entry><para>&#x03AE;</para></entry><entry><para>GREEK SMALL LETTER ETA WITH TONOS</para></entry></row>
+							<row><entry><para>EEacgr</para></entry><entry><para>&#x0389;</para></entry><entry><para>GREEK CAPITAL LETTER ETA WITH TONOS</para></entry></row>
+							<row><entry><para>idigr</para></entry><entry><para>&#x03CA;</para></entry><entry><para>GREEK SMALL LETTER IOTA WITH DIALYTIKA</para></entry></row>
+							<row><entry><para>Idigr</para></entry><entry><para>&#x03AA;</para></entry><entry><para>GREEK CAPITAL LETTER IOTA WITH DIALYTIKA</para></entry></row>
+							<row><entry><para>iacgr</para></entry><entry><para>&#x03AF;</para></entry><entry><para>GREEK SMALL LETTER IOTA WITH TONOS</para></entry></row>
+							<row><entry><para>Iacgr</para></entry><entry><para>&#x038A;</para></entry><entry><para>GREEK CAPITAL LETTER IOTA WITH TONOS</para></entry></row>
+							<row><entry><para>idiagr</para></entry><entry><para>&#x0390;</para></entry><entry><para>GREEK SMALL LETTER IOTA WITH DIALYTIKA AND TONOS</para></entry></row>
+							<row><entry><para>oacgr</para></entry><entry><para>&#x03CC;</para></entry><entry><para>GREEK SMALL LETTER OMICRON WITH TONOS</para></entry></row>
+							<row><entry><para>Oacgr</para></entry><entry><para>&#x038C;</para></entry><entry><para>GREEK CAPITAL LETTER OMICRON WITH TONOS</para></entry></row>
+							<row><entry><para>udigr</para></entry><entry><para>&#x03CB;</para></entry><entry><para>GREEK SMALL LETTER UPSILON WITH DIALYTIKA</para></entry></row>
+							<row><entry><para>Udigr</para></entry><entry><para>&#x03AB;</para></entry><entry><para>GREEK CAPITAL LETTER UPSILON WITH DIALYTIKA</para></entry></row>
+							<row><entry><para>uacgr</para></entry><entry><para>&#x03CD;</para></entry><entry><para>GREEK SMALL LETTER UPSILON WITH TONOS</para></entry></row>
+							<row><entry><para>Uacgr</para></entry><entry><para>&#x038E;</para></entry><entry><para>GREEK CAPITAL LETTER UPSILON WITH TONOS</para></entry></row>
+							<row><entry><para>udiagr</para></entry><entry><para>&#x03B0;</para></entry><entry><para>GREEK SMALL LETTER UPSILON WITH DIALYTIKA AND TONOS</para></entry></row>
+							<row><entry><para>ohacgr</para></entry><entry><para>&#x03CE;</para></entry><entry><para>GREEK SMALL LETTER OMEGA WITH TONOS</para></entry></row>
+							<row><entry><para>OHacgr</para></entry><entry><para>&#x038F;</para></entry><entry><para>GREEK CAPITAL LETTER OMEGA WITH TONOS</para></entry></row>
+						</tbody>
+					</tgroup>
+				</table>
+				<table>
+					<title>iso-grk3.ent</title>
+					<tgroup cols="3">
+						<colspec colname="col1" colwidth="0.50*"/>
+						<colspec colname="col2" align="center" colwidth="0.40*"/>
+						<colspec colname="col3" colwidth="2.20*"/>
+						<thead>
+							<row><entry><para>ISO Entity Name</para></entry><entry><para>Unicode Entity</para></entry><entry><para>Description</para></entry></row>
+						</thead>
+						<tbody>
+							<row><entry><para>alpha</para></entry><entry><para>&#x03B1;</para></entry><entry><para>GREEK SMALL LETTER ALPHA</para></entry></row>
+							<row><entry><para>beta</para></entry><entry><para>&#x03B2;</para></entry><entry><para>GREEK SMALL LETTER BETA</para></entry></row>
+							<row><entry><para>gamma</para></entry><entry><para>&#x03B3;</para></entry><entry><para>GREEK SMALL LETTER GAMMA</para></entry></row>
+							<row><entry><para>Gamma</para></entry><entry><para>&#x0393;</para></entry><entry><para>GREEK CAPITAL LETTER GAMMA</para></entry></row>
+							<row><entry><para>gammad</para></entry><entry><para>&#x03DC;</para></entry><entry><para>GREEK LETTER DIGAMMA</para></entry></row>
+							<row><entry><para>delta</para></entry><entry><para>&#x03B4;</para></entry><entry><para>GREEK SMALL LETTER DELTA</para></entry></row>
+							<row><entry><para>Delta</para></entry><entry><para>&#x0394;</para></entry><entry><para>GREEK CAPITAL LETTER DELTA</para></entry></row>
+							<row><entry><para>epsi</para></entry><entry><para>&#x220A;</para></entry><entry><para>GREEK LUNATE EPSILON SYMBOL</para></entry></row>
+							<row><entry><para>epsiv</para></entry><entry><para>&#x03B5;</para></entry><entry><para>GREEK SMALL LETTER EPSILON</para></entry></row>
+							<row><entry><para>epsis</para></entry><entry><para>&#x220A;</para></entry><entry><para>GREEK LUNATE EPSILON SYMBOL</para></entry></row>
+							<row><entry><para>zeta</para></entry><entry><para>&#x03B6;</para></entry><entry><para>GREEK SMALL LETTER ZETA</para></entry></row>
+							<row><entry><para>eta</para></entry><entry><para>&#x03B7;</para></entry><entry><para>GREEK SMALL LETTER ETA</para></entry></row>
+							<row><entry><para>thetas</para></entry><entry><para>&#x03B8;</para></entry><entry><para>GREEK SMALL LETTER THETA</para></entry></row>
+							<row><entry><para>Theta</para></entry><entry><para>&#x0398;</para></entry><entry><para>GREEK CAPITAL LETTER THETA</para></entry></row>
+							<row><entry><para>thetav</para></entry><entry><para>&#x03D1;</para></entry><entry><para>GREEK THETA SYMBOL</para></entry></row>
+							<row><entry><para>iota</para></entry><entry><para>&#x03B9;</para></entry><entry><para>GREEK SMALL LETTER IOTA</para></entry></row>
+							<row><entry><para>kappa</para></entry><entry><para>&#x03BA;</para></entry><entry><para>GREEK SMALL LETTER KAPPA</para></entry></row>
+							<row><entry><para>kappav</para></entry><entry><para>&#x03F0;</para></entry><entry><para>GREEK KAPPA SYMBOL</para></entry></row>
+							<row><entry><para>lambda</para></entry><entry><para>&#x03BB;</para></entry><entry><para>GREEK SMALL LETTER LAMDA</para></entry></row>
+							<row><entry><para>Lambda</para></entry><entry><para>&#x039B;</para></entry><entry><para>GREEK CAPITAL LETTER LAMDA</para></entry></row>
+							<row><entry><para>mu</para></entry><entry><para>&#x03BC;</para></entry><entry><para>GREEK SMALL LETTER MU</para></entry></row>
+							<row><entry><para>nu</para></entry><entry><para>&#x03BD;</para></entry><entry><para>GREEK SMALL LETTER NU</para></entry></row>
+							<row><entry><para>xi</para></entry><entry><para>&#x03BE;</para></entry><entry><para>GREEK SMALL LETTER XI</para></entry></row>
+							<row><entry><para>Xi</para></entry><entry><para>&#x039E;</para></entry><entry><para>GREEK CAPITAL LETTER XI</para></entry></row>
+							<row><entry><para>pi</para></entry><entry><para>&#x03C0;</para></entry><entry><para>GREEK SMALL LETTER PI</para></entry></row>
+							<row><entry><para>piv</para></entry><entry><para>&#x03D6;</para></entry><entry><para>GREEK PI SYMBOL</para></entry></row>
+							<row><entry><para>Pi</para></entry><entry><para>&#x03A0;</para></entry><entry><para>GREEK CAPITAL LETTER PI</para></entry></row>
+							<row><entry><para>rho</para></entry><entry><para>&#x03C1;</para></entry><entry><para>GREEK SMALL LETTER RHO</para></entry></row>
+							<row><entry><para>rhov</para></entry><entry><para>&#x03F1;</para></entry><entry><para>GREEK RHO SYMBOL</para></entry></row>
+							<row><entry><para>sigma</para></entry><entry><para>&#x03C3;</para></entry><entry><para>GREEK SMALL LETTER SIGMA</para></entry></row>
+							<row><entry><para>Sigma</para></entry><entry><para>&#x03A3;</para></entry><entry><para>GREEK CAPITAL LETTER SIGMA</para></entry></row>
+							<row><entry><para>sigmav</para></entry><entry><para>&#x03C2;</para></entry><entry><para>GREEK SMALL LETTER FINAL SIGMA</para></entry></row>
+							<row><entry><para>tau</para></entry><entry><para>&#x03C4;</para></entry><entry><para>GREEK SMALL LETTER TAU</para></entry></row>
+							<row><entry><para>upsi</para></entry><entry><para>&#x03C5;</para></entry><entry><para>GREEK SMALL LETTER UPSILON</para></entry></row>
+							<row><entry><para>Upsi</para></entry><entry><para>&#x03D2;</para></entry><entry><para>GREEK UPSILON WITH HOOK SYMBOL</para></entry></row>
+							<row><entry><para>phis</para></entry><entry><para>&#x03C6;</para></entry><entry><para>GREEK SMALL LETTER PHI</para></entry></row>
+							<row><entry><para>Phi</para></entry><entry><para>&#x03A6;</para></entry><entry><para>GREEK CAPITAL LETTER PHI</para></entry></row>
+							<row><entry><para>phiv</para></entry><entry><para>&#x03D5;</para></entry><entry><para>GREEK PHI SYMBOL</para></entry></row>
+							<row><entry><para>chi</para></entry><entry><para>&#x03C7;</para></entry><entry><para>GREEK SMALL LETTER CHI</para></entry></row>
+							<row><entry><para>psi</para></entry><entry><para>&#x03C8;</para></entry><entry><para>GREEK SMALL LETTER PSI</para></entry></row>
+							<row><entry><para>Psi</para></entry><entry><para>&#x03A8;</para></entry><entry><para>GREEK CAPITAL LETTER PSI</para></entry></row>
+							<row><entry><para>omega</para></entry><entry><para>&#x03C9;</para></entry><entry><para>GREEK SMALL LETTER OMEGA</para></entry></row>
+							<row><entry><para>Omega</para></entry><entry><para>&#x03A9;</para></entry><entry><para>GREEK CAPITAL LETTER OMEGA</para></entry></row>
+						</tbody>
+					</tgroup>
+				</table>
+				<table>
+					<title>iso-grk4.ent</title>
+					<tgroup cols="3">
+						<colspec colname="col1" colwidth="0.50*"/>
+						<colspec colname="col2" align="center" colwidth="0.40*"/>
+						<colspec colname="col3" colwidth="2.20*"/>
+						<thead>
+							<row><entry><para>ISO Entity Name</para></entry><entry><para>Unicode Entity</para></entry><entry><para>Description</para></entry></row>
+						</thead>
+						<tbody>
+							<row><entry><para>b.alpha</para></entry><entry><para>&#x03B1;</para></entry><entry><para>GREEK SMALL LETTER ALPHA</para></entry></row>
+							<row><entry><para>b.beta</para></entry><entry><para>&#x03B2;</para></entry><entry><para>GREEK SMALL LETTER BETA</para></entry></row>
+							<row><entry><para>b.gamma</para></entry><entry><para>&#x03B3;</para></entry><entry><para>GREEK SMALL LETTER GAMMA</para></entry></row>
+							<row><entry><para>b.Gamma</para></entry><entry><para>&#x0393;</para></entry><entry><para>GREEK CAPITAL LETTER GAMMA</para></entry></row>
+							<row><entry><para>b.gammad</para></entry><entry><para>&#x03DC;</para></entry><entry><para>GREEK LETTER DIGAMMA</para></entry></row>
+							<row><entry><para>b.delta</para></entry><entry><para>&#x03B4;</para></entry><entry><para>GREEK SMALL LETTER DELTA</para></entry></row>
+							<row><entry><para>b.Delta</para></entry><entry><para>&#x0394;</para></entry><entry><para>GREEK CAPITAL LETTER DELTA</para></entry></row>
+							<row><entry><para>b.epsi</para></entry><entry><para>&#x03B5;</para></entry><entry><para>GREEK SMALL LETTER EPSILON</para></entry></row>
+							<row><entry><para>b.epsiv</para></entry><entry><para>&#x03B5;</para></entry><entry><para>GREEK SMALL LETTER EPSILON</para></entry></row>
+							<row><entry><para>b.epsis</para></entry><entry><para>&#x03B5;</para></entry><entry><para>GREEK SMALL LETTER EPSILON</para></entry></row>
+							<row><entry><para>b.zeta</para></entry><entry><para>&#x03B6;</para></entry><entry><para>GREEK SMALL LETTER ZETA</para></entry></row>
+							<row><entry><para>b.eta</para></entry><entry><para>&#x03B7;</para></entry><entry><para>GREEK SMALL LETTER ETA</para></entry></row>
+							<row><entry><para>b.thetas</para></entry><entry><para>&#x03B8;</para></entry><entry><para>GREEK SMALL LETTER THETA</para></entry></row>
+							<row><entry><para>b.Theta</para></entry><entry><para>&#x0398;</para></entry><entry><para>GREEK CAPITAL LETTER THETA</para></entry></row>
+							<row><entry><para>b.thetav</para></entry><entry><para>&#x03D1;</para></entry><entry><para>GREEK THETA SYMBOL</para></entry></row>
+							<row><entry><para>b.iota</para></entry><entry><para>&#x03B9;</para></entry><entry><para>GREEK SMALL LETTER IOTA</para></entry></row>
+							<row><entry><para>b.kappa</para></entry><entry><para>&#x03BA;</para></entry><entry><para>GREEK SMALL LETTER KAPPA</para></entry></row>
+							<row><entry><para>b.kappav</para></entry><entry><para>&#x03F0;</para></entry><entry><para>GREEK KAPPA SYMBOL</para></entry></row>
+							<row><entry><para>b.lambda</para></entry><entry><para>&#x03BB;</para></entry><entry><para>GREEK SMALL LETTER LAMDA</para></entry></row>
+							<row><entry><para>b.Lambda</para></entry><entry><para>&#x039B;</para></entry><entry><para>GREEK CAPITAL LETTER LAMDA</para></entry></row>
+							<row><entry><para>b.mu</para></entry><entry><para>&#x03BC;</para></entry><entry><para>GREEK SMALL LETTER MU</para></entry></row>
+							<row><entry><para>b.nu</para></entry><entry><para>&#x03BD;</para></entry><entry><para>GREEK SMALL LETTER NU</para></entry></row>
+							<row><entry><para>b.xi</para></entry><entry><para>&#x03BE;</para></entry><entry><para>GREEK SMALL LETTER XI</para></entry></row>
+							<row><entry><para>b.Xi</para></entry><entry><para>&#x039E;</para></entry><entry><para>GREEK CAPITAL LETTER XI</para></entry></row>
+							<row><entry><para>b.pi</para></entry><entry><para>&#x03C0;</para></entry><entry><para>GREEK SMALL LETTER PI</para></entry></row>
+							<row><entry><para>b.Pi</para></entry><entry><para>&#x03A0;</para></entry><entry><para>GREEK CAPITAL LETTER PI</para></entry></row>
+							<row><entry><para>b.piv</para></entry><entry><para>&#x03D6;</para></entry><entry><para>GREEK PI SYMBOL</para></entry></row>
+							<row><entry><para>b.rho</para></entry><entry><para>&#x03C1;</para></entry><entry><para>GREEK SMALL LETTER RHO</para></entry></row>
+							<row><entry><para>b.rhov</para></entry><entry><para>&#x03F1;</para></entry><entry><para>GREEK RHO SYMBOL</para></entry></row>
+							<row><entry><para>b.sigma</para></entry><entry><para>&#x03C3;</para></entry><entry><para>GREEK SMALL LETTER SIGMA</para></entry></row>
+							<row><entry><para>b.Sigma</para></entry><entry><para>&#x03A3;</para></entry><entry><para>GREEK CAPITAL LETTER SIGMA</para></entry></row>
+							<row><entry><para>b.sigmav</para></entry><entry><para>&#x03C2;</para></entry><entry><para>GREEK SMALL FINAL SIGMA</para></entry></row>
+							<row><entry><para>b.tau</para></entry><entry><para>&#x03C4;</para></entry><entry><para>GREEK SMALL LETTER TAU</para></entry></row>
+							<row><entry><para>b.upsi</para></entry><entry><para>&#x03C5;</para></entry><entry><para>GREEK SMALL LETTER UPSILON</para></entry></row>
+							<row><entry><para>b.Upsi</para></entry><entry><para>&#x03D2;</para></entry><entry><para>GREEK CAPITAL UPSILON</para></entry></row>
+							<row><entry><para>b.phis</para></entry><entry><para>&#x03C6;</para></entry><entry><para>GREEK SMALL LETTER PHI</para></entry></row>
+							<row><entry><para>b.Phi</para></entry><entry><para>&#x03A6;</para></entry><entry><para>GREEK CAPITAL LETTER PHI</para></entry></row>
+							<row><entry><para>b.phiv</para></entry><entry><para>&#x03D5;</para></entry><entry><para>GREEK PHI SYMBOL</para></entry></row>
+							<row><entry><para>b.chi</para></entry><entry><para>&#x03C7;</para></entry><entry><para>GREEK SMALL LETTER CHI</para></entry></row>
+							<row><entry><para>b.psi</para></entry><entry><para>&#x03C8;</para></entry><entry><para>GREEK SMALL LETTER PSI</para></entry></row>
+							<row><entry><para>b.Psi</para></entry><entry><para>&#x03A8;</para></entry><entry><para>GREEK CAPITAL LETTER PSI</para></entry></row>
+							<row><entry><para>b.omega</para></entry><entry><para>&#x03C9;</para></entry><entry><para>GREEK SMALL LETTER OMEGA</para></entry></row>
+							<row><entry><para>b.Omega</para></entry><entry><para>&#x03A9;</para></entry><entry><para>GREEK CAPITAL LETTER OMEGA</para></entry></row>
+						</tbody>
+					</tgroup>
+				</table>
+				<table>
+					<title>iso-lat1.ent</title>
+					<tgroup cols="3">
+						<colspec colname="col1" colwidth="0.50*"/>
+						<colspec colname="col2" align="center" colwidth="0.40*"/>
+						<colspec colname="col3" colwidth="2.20*"/>
+						<thead>
+							<row><entry><para>ISO Entity Name</para></entry><entry><para>Unicode Entity</para></entry><entry><para>Description</para></entry></row>
+						</thead>
+						<tbody>
+							<row><entry><para>aacute</para></entry><entry><para>&#x00E1;</para></entry><entry><para>LATIN SMALL LETTER A WITH ACUTE</para></entry></row>
+							<row><entry><para>Aacute</para></entry><entry><para>&#x00C1;</para></entry><entry><para>LATIN CAPITAL LETTER A WITH ACUTE</para></entry></row>
+							<row><entry><para>acirc</para></entry><entry><para>&#x00E2;</para></entry><entry><para>LATIN SMALL LETTER A WITH CIRCUMFLEX</para></entry></row>
+							<row><entry><para>Acirc</para></entry><entry><para>&#x00C2;</para></entry><entry><para>LATIN CAPITAL LETTER A WITH CIRCUMFLEX</para></entry></row>
+							<row><entry><para>agrave</para></entry><entry><para>&#x00E0;</para></entry><entry><para>LATIN SMALL LETTER A WITH GRAVE</para></entry></row>
+							<row><entry><para>Agrave</para></entry><entry><para>&#x00C0;</para></entry><entry><para>LATIN CAPITAL LETTER A WITH GRAVE</para></entry></row>
+							<row><entry><para>aring</para></entry><entry><para>&#x00E5;</para></entry><entry><para>LATIN SMALL LETTER A WITH RING ABOVE</para></entry></row>
+							<row><entry><para>Aring</para></entry><entry><para>&#x00C5;</para></entry><entry><para>LATIN CAPITAL LETTER A WITH RING ABOVE</para></entry></row>
+							<row><entry><para>atilde</para></entry><entry><para>&#x00E3;</para></entry><entry><para>LATIN SMALL LETTER A WITH TILDE</para></entry></row>
+							<row><entry><para>Atilde</para></entry><entry><para>&#x00C3;</para></entry><entry><para>LATIN CAPITAL LETTER A WITH TILDE</para></entry></row>
+							<row><entry><para>auml</para></entry><entry><para>&#x00E4;</para></entry><entry><para>LATIN SMALL LETTER A WITH DIAERESIS</para></entry></row>
+							<row><entry><para>Auml</para></entry><entry><para>&#x00C4;</para></entry><entry><para>LATIN CAPITAL LETTER A WITH DIAERESIS</para></entry></row>
+							<row><entry><para>aelig</para></entry><entry><para>&#x00E6;</para></entry><entry><para>LATIN SMALL LETTER AE</para></entry></row>
+							<row><entry><para>AElig</para></entry><entry><para>&#x00C6;</para></entry><entry><para>LATIN CAPITAL LETTER AE</para></entry></row>
+							<row><entry><para>ccedil</para></entry><entry><para>&#x00E7;</para></entry><entry><para>LATIN SMALL LETTER C WITH CEDILLA</para></entry></row>
+							<row><entry><para>Ccedil</para></entry><entry><para>&#x00C7;</para></entry><entry><para>LATIN CAPITAL LETTER C WITH CEDILLA</para></entry></row>
+							<row><entry><para>eth</para></entry><entry><para>&#x00F0;</para></entry><entry><para>LATIN SMALL LETTER ETH</para></entry></row>
+							<row><entry><para>ETH</para></entry><entry><para>&#x00D0;</para></entry><entry><para>LATIN CAPITAL LETTER ETH</para></entry></row>
+							<row><entry><para>eacute</para></entry><entry><para>&#x00E9;</para></entry><entry><para>LATIN SMALL LETTER E WITH ACUTE</para></entry></row>
+							<row><entry><para>Eacute</para></entry><entry><para>&#x00C9;</para></entry><entry><para>LATIN CAPITAL LETTER E WITH ACUTE</para></entry></row>
+							<row><entry><para>ecirc</para></entry><entry><para>&#x00EA;</para></entry><entry><para>LATIN SMALL LETTER E WITH CIRCUMFLEX</para></entry></row>
+							<row><entry><para>Ecirc</para></entry><entry><para>&#x00CA;</para></entry><entry><para>LATIN CAPITAL LETTER E WITH CIRCUMFLEX</para></entry></row>
+							<row><entry><para>egrave</para></entry><entry><para>&#x00E8;</para></entry><entry><para>LATIN SMALL LETTER E WITH GRAVE</para></entry></row>
+							<row><entry><para>Egrave</para></entry><entry><para>&#x00C8;</para></entry><entry><para>LATIN CAPITAL LETTER E WITH GRAVE</para></entry></row>
+							<row><entry><para>euml</para></entry><entry><para>&#x00EB;</para></entry><entry><para>LATIN SMALL LETTER E WITH DIAERESIS</para></entry></row>
+							<row><entry><para>Euml</para></entry><entry><para>&#x00CB;</para></entry><entry><para>LATIN CAPITAL LETTER E WITH DIAERESIS</para></entry></row>
+							<row><entry><para>iacute</para></entry><entry><para>&#x00ED;</para></entry><entry><para>LATIN SMALL LETTER I WITH ACUTE</para></entry></row>
+							<row><entry><para>Iacute</para></entry><entry><para>&#x00CD;</para></entry><entry><para>LATIN CAPITAL LETTER I WITH ACUTE</para></entry></row>
+							<row><entry><para>icirc</para></entry><entry><para>&#x00EE;</para></entry><entry><para>LATIN SMALL LETTER I WITH CIRCUMFLEX</para></entry></row>
+							<row><entry><para>Icirc</para></entry><entry><para>&#x00CE;</para></entry><entry><para>LATIN CAPITAL LETTER I WITH CIRCUMFLEX</para></entry></row>
+							<row><entry><para>igrave</para></entry><entry><para>&#x00EC;</para></entry><entry><para>LATIN SMALL LETTER I WITH GRAVE</para></entry></row>
+							<row><entry><para>Igrave</para></entry><entry><para>&#x00CC;</para></entry><entry><para>LATIN CAPITAL LETTER I WITH GRAVE</para></entry></row>
+							<row><entry><para>iuml</para></entry><entry><para>&#x00EF;</para></entry><entry><para>LATIN SMALL LETTER I WITH DIAERESIS</para></entry></row>
+							<row><entry><para>Iuml</para></entry><entry><para>&#x00CF;</para></entry><entry><para>LATIN CAPITAL LETTER I WITH DIAERESIS</para></entry></row>
+							<row><entry><para>ntilde</para></entry><entry><para>&#x00F1;</para></entry><entry><para>LATIN SMALL LETTER N WITH TILDE</para></entry></row>
+							<row><entry><para>Ntilde</para></entry><entry><para>&#x00D1;</para></entry><entry><para>LATIN CAPITAL LETTER N WITH TILDE</para></entry></row>
+							<row><entry><para>oacute</para></entry><entry><para>&#x00F3;</para></entry><entry><para>LATIN SMALL LETTER O WITH ACUTE</para></entry></row>
+							<row><entry><para>Oacute</para></entry><entry><para>&#x00D3;</para></entry><entry><para>LATIN CAPITAL LETTER O WITH ACUTE</para></entry></row>
+							<row><entry><para>ocirc</para></entry><entry><para>&#x00F4;</para></entry><entry><para>LATIN SMALL LETTER O WITH CIRCUMFLEX</para></entry></row>
+							<row><entry><para>Ocirc</para></entry><entry><para>&#x00D4;</para></entry><entry><para>LATIN CAPITAL LETTER O WITH CIRCUMFLEX</para></entry></row>
+							<row><entry><para>ograve</para></entry><entry><para>&#x00F2;</para></entry><entry><para>LATIN SMALL LETTER O WITH GRAVE</para></entry></row>
+							<row><entry><para>Ograve</para></entry><entry><para>&#x00D2;</para></entry><entry><para>LATIN CAPITAL LETTER O WITH GRAVE</para></entry></row>
+							<row><entry><para>oslash</para></entry><entry><para>&#x00F8;</para></entry><entry><para>LATIN SMALL LETTER O WITH STROKE</para></entry></row>
+							<row><entry><para>Oslash</para></entry><entry><para>&#x00D8;</para></entry><entry><para>LATIN CAPITAL LETTER O WITH STROKE</para></entry></row>
+							<row><entry><para>otilde</para></entry><entry><para>&#x00F5;</para></entry><entry><para>LATIN SMALL LETTER O WITH TILDE</para></entry></row>
+							<row><entry><para>Otilde</para></entry><entry><para>&#x00D5;</para></entry><entry><para>LATIN CAPITAL LETTER O WITH TILDE</para></entry></row>
+							<row><entry><para>ouml</para></entry><entry><para>&#x00F6;</para></entry><entry><para>LATIN SMALL LETTER O WITH DIAERESIS</para></entry></row>
+							<row><entry><para>Ouml</para></entry><entry><para>&#x00D6;</para></entry><entry><para>LATIN CAPITAL LETTER O WITH DIAERESIS</para></entry></row>
+							<row><entry><para>szlig</para></entry><entry><para>&#x00DF;</para></entry><entry><para>LATIN SMALL LETTER SHARP S</para></entry></row>
+							<row><entry><para>thorn</para></entry><entry><para>&#x00FE;</para></entry><entry><para>LATIN SMALL LETTER THORN</para></entry></row>
+							<row><entry><para>THORN</para></entry><entry><para>&#x00DE;</para></entry><entry><para>LATIN CAPITAL LETTER THORN</para></entry></row>
+							<row><entry><para>uacute</para></entry><entry><para>&#x00FA;</para></entry><entry><para>LATIN SMALL LETTER U WITH ACUTE</para></entry></row>
+							<row><entry><para>Uacute</para></entry><entry><para>&#x00DA;</para></entry><entry><para>LATIN CAPITAL LETTER U WITH ACUTE</para></entry></row>
+							<row><entry><para>ucirc</para></entry><entry><para>&#x00FB;</para></entry><entry><para>LATIN SMALL LETTER U WITH CIRCUMFLEX</para></entry></row>
+							<row><entry><para>Ucirc</para></entry><entry><para>&#x00DB;</para></entry><entry><para>LATIN CAPITAL LETTER U WITH CIRCUMFLEX</para></entry></row>
+							<row><entry><para>ugrave</para></entry><entry><para>&#x00F9;</para></entry><entry><para>LATIN SMALL LETTER U WITH GRAVE</para></entry></row>
+							<row><entry><para>Ugrave</para></entry><entry><para>&#x00D9;</para></entry><entry><para>LATIN CAPITAL LETTER U WITH GRAVE</para></entry></row>
+							<row><entry><para>uuml</para></entry><entry><para>&#x00FC;</para></entry><entry><para>LATIN SMALL LETTER U WITH DIAERESIS</para></entry></row>
+							<row><entry><para>Uuml</para></entry><entry><para>&#x00DC;</para></entry><entry><para>LATIN CAPITAL LETTER U WITH DIAERESIS</para></entry></row>
+							<row><entry><para>yacute</para></entry><entry><para>&#x00FD;</para></entry><entry><para>LATIN SMALL LETTER Y WITH ACUTE</para></entry></row>
+							<row><entry><para>Yacute</para></entry><entry><para>&#x00DD;</para></entry><entry><para>LATIN CAPITAL LETTER Y WITH ACUTE</para></entry></row>
+							<row><entry><para>yuml</para></entry><entry><para>&#x00FF;</para></entry><entry><para>LATIN SMALL LETTER Y WITH DIAERESIS</para></entry></row>
+						</tbody>
+					</tgroup>
+				</table>
+				<table>
+					<title>iso-lat2.ent</title>
+					<tgroup cols="3">
+						<colspec colname="col1" colwidth="0.50*"/>
+						<colspec colname="col2" align="center" colwidth="0.40*"/>
+						<colspec colname="col3" colwidth="2.20*"/>
+						<thead>
+							<row><entry><para>ISO Entity Name</para></entry><entry><para>Unicode Entity</para></entry><entry><para>Description</para></entry></row>
+						</thead>
+						<tbody>
+							<row><entry><para>abreve</para></entry><entry><para>&#x0103;</para></entry><entry><para>LATIN SMALL LETTER A WITH BREVE</para></entry></row>
+							<row><entry><para>Abreve</para></entry><entry><para>&#x0102;</para></entry><entry><para>LATIN CAPITAL LETTER A WITH BREVE</para></entry></row>
+							<row><entry><para>amacr</para></entry><entry><para>&#x0101;</para></entry><entry><para>LATIN SMALL LETTER A WITH MACRON</para></entry></row>
+							<row><entry><para>Amacr</para></entry><entry><para>&#x0100;</para></entry><entry><para>LATIN CAPITAL LETTER A WITH MACRON</para></entry></row>
+							<row><entry><para>aogon</para></entry><entry><para>&#x0105;</para></entry><entry><para>LATIN SMALL LETTER A WITH OGONEK</para></entry></row>
+							<row><entry><para>Aogon</para></entry><entry><para>&#x0104;</para></entry><entry><para>LATIN CAPITAL LETTER A WITH OGONEK</para></entry></row>
+							<row><entry><para>cacute</para></entry><entry><para>&#x0107;</para></entry><entry><para>LATIN SMALL LETTER C WITH ACUTE</para></entry></row>
+							<row><entry><para>Cacute</para></entry><entry><para>&#x0106;</para></entry><entry><para>LATIN CAPITAL LETTER C WITH ACUTE</para></entry></row>
+							<row><entry><para>ccaron</para></entry><entry><para>&#x010D;</para></entry><entry><para>LATIN SMALL LETTER C WITH CARON</para></entry></row>
+							<row><entry><para>Ccaron</para></entry><entry><para>&#x010C;</para></entry><entry><para>LATIN CAPITAL LETTER C WITH CARON</para></entry></row>
+							<row><entry><para>ccirc</para></entry><entry><para>&#x0109;</para></entry><entry><para>LATIN SMALL LETTER C WITH CIRCUMFLEX</para></entry></row>
+							<row><entry><para>Ccirc</para></entry><entry><para>&#x0108;</para></entry><entry><para>LATIN CAPITAL LETTER C WITH CIRCUMFLEX</para></entry></row>
+							<row><entry><para>cdot</para></entry><entry><para>&#x010B;</para></entry><entry><para>LATIN SMALL LETTER C WITH DOT ABOVE</para></entry></row>
+							<row><entry><para>Cdot</para></entry><entry><para>&#x010A;</para></entry><entry><para>LATIN CAPITAL LETTER C WITH DOT ABOVE</para></entry></row>
+							<row><entry><para>dcaron</para></entry><entry><para>&#x010F;</para></entry><entry><para>LATIN SMALL LETTER D WITH CARON</para></entry></row>
+							<row><entry><para>Dcaron</para></entry><entry><para>&#x010E;</para></entry><entry><para>LATIN CAPITAL LETTER D WITH CARON</para></entry></row>
+							<row><entry><para>dstrok</para></entry><entry><para>&#x0111;</para></entry><entry><para>LATIN SMALL LETTER D WITH STROKE</para></entry></row>
+							<row><entry><para>Dstrok</para></entry><entry><para>&#x0110;</para></entry><entry><para>LATIN CAPITAL LETTER D WITH STROKE</para></entry></row>
+							<row><entry><para>ecaron</para></entry><entry><para>&#x011B;</para></entry><entry><para>LATIN SMALL LETTER E WITH CARON</para></entry></row>
+							<row><entry><para>Ecaron</para></entry><entry><para>&#x011A;</para></entry><entry><para>LATIN CAPITAL LETTER E WITH CARON</para></entry></row>
+							<row><entry><para>edot</para></entry><entry><para>&#x0117;</para></entry><entry><para>LATIN SMALL LETTER E WITH DOT ABOVE</para></entry></row>
+							<row><entry><para>Edot</para></entry><entry><para>&#x0116;</para></entry><entry><para>LATIN CAPITAL LETTER E WITH DOT ABOVE</para></entry></row>
+							<row><entry><para>emacr</para></entry><entry><para>&#x0113;</para></entry><entry><para>LATIN SMALL LETTER E WITH MACRON</para></entry></row>
+							<row><entry><para>Emacr</para></entry><entry><para>&#x0112;</para></entry><entry><para>LATIN CAPITAL LETTER E WITH MACRON</para></entry></row>
+							<row><entry><para>eogon</para></entry><entry><para>&#x0119;</para></entry><entry><para>LATIN SMALL LETTER E WITH OGONEK</para></entry></row>
+							<row><entry><para>Eogon</para></entry><entry><para>&#x0118;</para></entry><entry><para>LATIN CAPITAL LETTER E WITH OGONEK</para></entry></row>
+							<row><entry><para>gacute</para></entry><entry><para>&#x01F5;</para></entry><entry><para>LATIN SMALL LETTER G WITH ACUTE</para></entry></row>
+							<row><entry><para>gbreve</para></entry><entry><para>&#x011F;</para></entry><entry><para>LATIN SMALL LETTER G WITH BREVE</para></entry></row>
+							<row><entry><para>Gbreve</para></entry><entry><para>&#x011E;</para></entry><entry><para>LATIN CAPITAL LETTER G WITH BREVE</para></entry></row>
+							<row><entry><para>Gcedil</para></entry><entry><para>&#x0122;</para></entry><entry><para>LATIN CAPITAL LETTER G WITH CEDILLA</para></entry></row>
+							<row><entry><para>gcirc</para></entry><entry><para>&#x011D;</para></entry><entry><para>LATIN SMALL LETTER G WITH CIRCUMFLEX</para></entry></row>
+							<row><entry><para>Gcirc</para></entry><entry><para>&#x011C;</para></entry><entry><para>LATIN CAPITAL LETTER G WITH CIRCUMFLEX</para></entry></row>
+							<row><entry><para>gdot</para></entry><entry><para>&#x0121;</para></entry><entry><para>LATIN SMALL LETTER G WITH DOT ABOVE</para></entry></row>
+							<row><entry><para>Gdot</para></entry><entry><para>&#x0120;</para></entry><entry><para>LATIN CAPITAL LETTER G WITH DOT ABOVE</para></entry></row>
+							<row><entry><para>hcirc</para></entry><entry><para>&#x0125;</para></entry><entry><para>LATIN SMALL LETTER H WITH CIRCUMFLEX</para></entry></row>
+							<row><entry><para>Hcirc</para></entry><entry><para>&#x0124;</para></entry><entry><para>LATIN CAPITAL LETTER H WITH CIRCUMFLEX</para></entry></row>
+							<row><entry><para>hstrok</para></entry><entry><para>&#x0127;</para></entry><entry><para>LATIN SMALL LETTER H WITH STROKE</para></entry></row>
+							<row><entry><para>Hstrok</para></entry><entry><para>&#x0126;</para></entry><entry><para>LATIN CAPITAL LETTER H WITH STROKE</para></entry></row>
+							<row><entry><para>Idot</para></entry><entry><para>&#x0130;</para></entry><entry><para>LATIN CAPITAL LETTER I WITH DOT ABOVE</para></entry></row>
+							<row><entry><para>Imacr</para></entry><entry><para>&#x012A;</para></entry><entry><para>LATIN CAPITAL LETTER I WITH MACRON</para></entry></row>
+							<row><entry><para>imacr</para></entry><entry><para>&#x012B;</para></entry><entry><para>LATIN SMALL LETTER I WITH MACRON</para></entry></row>
+							<row><entry><para>ijlig</para></entry><entry><para>&#x0133;</para></entry><entry><para>LATIN SMALL LIGATURE IJ</para></entry></row>
+							<row><entry><para>IJlig</para></entry><entry><para>&#x0132;</para></entry><entry><para>LATIN CAPITAL LIGATURE IJ</para></entry></row>
+							<row><entry><para>inodot</para></entry><entry><para>&#x0131;</para></entry><entry><para>LATIN SMALL LETTER DOTLESS I</para></entry></row>
+							<row><entry><para>iogon</para></entry><entry><para>&#x012F;</para></entry><entry><para>LATIN SMALL LETTER I WITH OGONEK</para></entry></row>
+							<row><entry><para>Iogon</para></entry><entry><para>&#x012E;</para></entry><entry><para>LATIN CAPITAL LETTER I WITH OGONEK</para></entry></row>
+							<row><entry><para>itilde</para></entry><entry><para>&#x0129;</para></entry><entry><para>LATIN SMALL LETTER I WITH TILDE</para></entry></row>
+							<row><entry><para>Itilde</para></entry><entry><para>&#x0128;</para></entry><entry><para>LATIN CAPITAL LETTER I WITH TILDE</para></entry></row>
+							<row><entry><para>jcirc</para></entry><entry><para>&#x0135;</para></entry><entry><para>LATIN SMALL LETTER J WITH CIRCUMFLEX</para></entry></row>
+							<row><entry><para>Jcirc</para></entry><entry><para>&#x0134;</para></entry><entry><para>LATIN CAPITAL LETTER J WITH CIRCUMFLEX</para></entry></row>
+							<row><entry><para>kcedil</para></entry><entry><para>&#x0137;</para></entry><entry><para>LATIN SMALL LETTER K WITH CEDILLA</para></entry></row>
+							<row><entry><para>Kcedil</para></entry><entry><para>&#x0136;</para></entry><entry><para>LATIN CAPITAL LETTER K WITH CEDILLA</para></entry></row>
+							<row><entry><para>kgreen</para></entry><entry><para>&#x0138;</para></entry><entry><para>LATIN SMALL LETTER KRA</para></entry></row>
+							<row><entry><para>lacute</para></entry><entry><para>&#x013A;</para></entry><entry><para>LATIN SMALL LETTER L WITH ACUTE</para></entry></row>
+							<row><entry><para>Lacute</para></entry><entry><para>&#x0139;</para></entry><entry><para>LATIN CAPITAL LETTER L WITH ACUTE</para></entry></row>
+							<row><entry><para>lcaron</para></entry><entry><para>&#x013E;</para></entry><entry><para>LATIN SMALL LETTER L WITH CARON</para></entry></row>
+							<row><entry><para>Lcaron</para></entry><entry><para>&#x013D;</para></entry><entry><para>LATIN CAPITAL LETTER L WITH CARON</para></entry></row>
+							<row><entry><para>lcedil</para></entry><entry><para>&#x013C;</para></entry><entry><para>LATIN SMALL LETTER L WITH CEDILLA</para></entry></row>
+							<row><entry><para>Lcedil</para></entry><entry><para>&#x013B;</para></entry><entry><para>LATIN CAPITAL LETTER L WITH CEDILLA</para></entry></row>
+							<row><entry><para>lmidot</para></entry><entry><para>&#x0140;</para></entry><entry><para>LATIN SMALL LETTER L WITH MIDDLE DOT</para></entry></row>
+							<row><entry><para>Lmidot</para></entry><entry><para>&#x013F;</para></entry><entry><para>LATIN CAPITAL LETTER L WITH MIDDLE DOT</para></entry></row>
+							<row><entry><para>lstrok</para></entry><entry><para>&#x0142;</para></entry><entry><para>LATIN SMALL LETTER L WITH STROKE</para></entry></row>
+							<row><entry><para>Lstrok</para></entry><entry><para>&#x0141;</para></entry><entry><para>LATIN CAPITAL LETTER L WITH STROKE</para></entry></row>
+							<row><entry><para>nacute</para></entry><entry><para>&#x0144;</para></entry><entry><para>LATIN SMALL LETTER N WITH ACUTE</para></entry></row>
+							<row><entry><para>Nacute</para></entry><entry><para>&#x0143;</para></entry><entry><para>LATIN CAPITAL LETTER N WITH ACUTE</para></entry></row>
+							<row><entry><para>eng</para></entry><entry><para>&#x014B;</para></entry><entry><para>LATIN SMALL LETTER ENG</para></entry></row>
+							<row><entry><para>ENG</para></entry><entry><para>&#x014A;</para></entry><entry><para>LATIN CAPITAL LETTER ENG</para></entry></row>
+							<row><entry><para>napos</para></entry><entry><para>&#x0149;</para></entry><entry><para>LATIN SMALL LETTER N PRECEDED BY APOSTROPHE</para></entry></row>
+							<row><entry><para>ncaron</para></entry><entry><para>&#x0148;</para></entry><entry><para>LATIN SMALL LETTER N WITH CARON</para></entry></row>
+							<row><entry><para>Ncaron</para></entry><entry><para>&#x0147;</para></entry><entry><para>LATIN CAPITAL LETTER N WITH CARON</para></entry></row>
+							<row><entry><para>ncedil</para></entry><entry><para>&#x0146;</para></entry><entry><para>LATIN SMALL LETTER N WITH CEDILLA</para></entry></row>
+							<row><entry><para>Ncedil</para></entry><entry><para>&#x0145;</para></entry><entry><para>LATIN CAPITAL LETTER N WITH CEDILLA</para></entry></row>
+							<row><entry><para>odblac</para></entry><entry><para>&#x0151;</para></entry><entry><para>LATIN SMALL LETTER O WITH DOUBLE ACUTE</para></entry></row>
+							<row><entry><para>Odblac</para></entry><entry><para>&#x0150;</para></entry><entry><para>LATIN CAPITAL LETTER O WITH DOUBLE ACUTE</para></entry></row>
+							<row><entry><para>Omacr</para></entry><entry><para>&#x014C;</para></entry><entry><para>LATIN CAPITAL LETTER O WITH MACRON</para></entry></row>
+							<row><entry><para>omacr</para></entry><entry><para>&#x014D;</para></entry><entry><para>LATIN SMALL LETTER O WITH MACRON</para></entry></row>
+							<row><entry><para>oelig</para></entry><entry><para>&#x0153;</para></entry><entry><para>LATIN SMALL LIGATURE OE</para></entry></row>
+							<row><entry><para>OElig</para></entry><entry><para>&#x0152;</para></entry><entry><para>LATIN CAPITAL LIGATURE OE</para></entry></row>
+							<row><entry><para>racute</para></entry><entry><para>&#x0155;</para></entry><entry><para>LATIN SMALL LETTER R WITH ACUTE</para></entry></row>
+							<row><entry><para>Racute</para></entry><entry><para>&#x0154;</para></entry><entry><para>LATIN CAPITAL LETTER R WITH ACUTE</para></entry></row>
+							<row><entry><para>rcaron</para></entry><entry><para>&#x0159;</para></entry><entry><para>LATIN SMALL LETTER R WITH CARON</para></entry></row>
+							<row><entry><para>Rcaron</para></entry><entry><para>&#x0158;</para></entry><entry><para>LATIN CAPITAL LETTER R WITH CARON</para></entry></row>
+							<row><entry><para>rcedil</para></entry><entry><para>&#x0157;</para></entry><entry><para>LATIN SMALL LETTER R WITH CEDILLA</para></entry></row>
+							<row><entry><para>Rcedil</para></entry><entry><para>&#x0156;</para></entry><entry><para>LATIN CAPITAL LETTER R WITH CEDILLA</para></entry></row>
+							<row><entry><para>sacute</para></entry><entry><para>&#x015B;</para></entry><entry><para>LATIN SMALL LETTER S WITH ACUTE</para></entry></row>
+							<row><entry><para>Sacute</para></entry><entry><para>&#x015A;</para></entry><entry><para>LATIN CAPITAL LETTER S WITH ACUTE</para></entry></row>
+							<row><entry><para>scaron</para></entry><entry><para>&#x0161;</para></entry><entry><para>LATIN SMALL LETTER S WITH CARON</para></entry></row>
+							<row><entry><para>Scaron</para></entry><entry><para>&#x0160;</para></entry><entry><para>LATIN CAPITAL LETTER S WITH CARON</para></entry></row>
+							<row><entry><para>scedil</para></entry><entry><para>&#x015F;</para></entry><entry><para>LATIN SMALL LETTER S WITH CEDILLA</para></entry></row>
+							<row><entry><para>Scedil</para></entry><entry><para>&#x015E;</para></entry><entry><para>LATIN CAPITAL LETTER S WITH CEDILLA</para></entry></row>
+							<row><entry><para>scirc</para></entry><entry><para>&#x015D;</para></entry><entry><para>LATIN SMALL LETTER S WITH CIRCUMFLEX</para></entry></row>
+							<row><entry><para>Scirc</para></entry><entry><para>&#x015C;</para></entry><entry><para>LATIN CAPITAL LETTER S WITH CIRCUMFLEX</para></entry></row>
+							<row><entry><para>tcaron</para></entry><entry><para>&#x0165;</para></entry><entry><para>LATIN SMALL LETTER T WITH CARON</para></entry></row>
+							<row><entry><para>Tcaron</para></entry><entry><para>&#x0164;</para></entry><entry><para>LATIN CAPITAL LETTER T WITH CARON</para></entry></row>
+							<row><entry><para>tcedil</para></entry><entry><para>&#x0163;</para></entry><entry><para>LATIN SMALL LETTER T WITH CEDILLA</para></entry></row>
+							<row><entry><para>Tcedil</para></entry><entry><para>&#x0162;</para></entry><entry><para>LATIN CAPITAL LETTER T WITH CEDILLA</para></entry></row>
+							<row><entry><para>tstrok</para></entry><entry><para>&#x0167;</para></entry><entry><para>LATIN SMALL LETTER T WITH STROKE</para></entry></row>
+							<row><entry><para>Tstrok</para></entry><entry><para>&#x0166;</para></entry><entry><para>LATIN CAPITAL LETTER T WITH STROKE</para></entry></row>
+							<row><entry><para>ubreve</para></entry><entry><para>&#x016D;</para></entry><entry><para>LATIN SMALL LETTER U WITH BREVE</para></entry></row>
+							<row><entry><para>Ubreve</para></entry><entry><para>&#x016C;</para></entry><entry><para>LATIN CAPITAL LETTER U WITH BREVE</para></entry></row>
+							<row><entry><para>udblac</para></entry><entry><para>&#x0171;</para></entry><entry><para>LATIN SMALL LETTER U WITH DOUBLE ACUTE</para></entry></row>
+							<row><entry><para>Udblac</para></entry><entry><para>&#x0170;</para></entry><entry><para>LATIN CAPITAL LETTER U WITH DOUBLE ACUTE</para></entry></row>
+							<row><entry><para>umacr</para></entry><entry><para>&#x016B;</para></entry><entry><para>LATIN SMALL LETTER U WITH MACRON</para></entry></row>
+							<row><entry><para>Umacr</para></entry><entry><para>&#x016A;</para></entry><entry><para>LATIN CAPITAL LETTER U WITH MACRON</para></entry></row>
+							<row><entry><para>uogon</para></entry><entry><para>&#x0173;</para></entry><entry><para>LATIN SMALL LETTER U WITH OGONEK</para></entry></row>
+							<row><entry><para>Uogon</para></entry><entry><para>&#x0172;</para></entry><entry><para>LATIN CAPITAL LETTER U WITH OGONEK</para></entry></row>
+							<row><entry><para>uring</para></entry><entry><para>&#x016F;</para></entry><entry><para>LATIN SMALL LETTER U WITH RING ABOVE</para></entry></row>
+							<row><entry><para>Uring</para></entry><entry><para>&#x016E;</para></entry><entry><para>LATIN CAPITAL LETTER U WITH RING ABOVE</para></entry></row>
+							<row><entry><para>utilde</para></entry><entry><para>&#x0169;</para></entry><entry><para>LATIN SMALL LETTER U WITH TILDE</para></entry></row>
+							<row><entry><para>Utilde</para></entry><entry><para>&#x0168;</para></entry><entry><para>LATIN CAPITAL LETTER U WITH TILDE</para></entry></row>
+							<row><entry><para>wcirc</para></entry><entry><para>&#x0175;</para></entry><entry><para>LATIN SMALL LETTER W WITH CIRCUMFLEX</para></entry></row>
+							<row><entry><para>Wcirc</para></entry><entry><para>&#x0174;</para></entry><entry><para>LATIN CAPITAL LETTER W WITH CIRCUMFLEX</para></entry></row>
+							<row><entry><para>ycirc</para></entry><entry><para>&#x0177;</para></entry><entry><para>LATIN SMALL LETTER Y WITH CIRCUMFLEX</para></entry></row>
+							<row><entry><para>Ycirc</para></entry><entry><para>&#x0176;</para></entry><entry><para>LATIN CAPITAL LETTER Y WITH CIRCUMFLEX</para></entry></row>
+							<row><entry><para>Yuml</para></entry><entry><para>&#x0178;</para></entry><entry><para>LATIN CAPITAL LETTER Y WITH DIAERESIS</para></entry></row>
+							<row><entry><para>zacute</para></entry><entry><para>&#x017A;</para></entry><entry><para>LATIN SMALL LETTER Z WITH ACUTE</para></entry></row>
+							<row><entry><para>Zacute</para></entry><entry><para>&#x0179;</para></entry><entry><para>LATIN CAPITAL LETTER Z WITH ACUTE</para></entry></row>
+							<row><entry><para>zcaron</para></entry><entry><para>&#x017E;</para></entry><entry><para>LATIN SMALL LETTER Z WITH CARON</para></entry></row>
+							<row><entry><para>Zcaron</para></entry><entry><para>&#x017D;</para></entry><entry><para>LATIN CAPITAL LETTER Z WITH CARON</para></entry></row>
+							<row><entry><para>zdot</para></entry><entry><para>&#x017C;</para></entry><entry><para>LATIN SMALL LETTER Z WITH DOT ABOVE</para></entry></row>
+							<row><entry><para>Zdot</para></entry><entry><para>&#x017B;</para></entry><entry><para>LATIN CAPITAL LETTER Z WITH DOT ABOVE</para></entry></row>
+						</tbody>
+					</tgroup>
+				</table>
+				<table>
+					<title>iso-num.ent</title>
+					<tgroup cols="3">
+						<colspec colname="col1" colwidth="0.50*"/>
+						<colspec colname="col2" align="center" colwidth="0.40*"/>
+						<colspec colname="col3" colwidth="2.20*"/>
+						<thead>
+							<row><entry><para>ISO Entity Name</para></entry><entry><para>Unicode Entity</para></entry><entry><para>Description</para></entry></row>
+						</thead>
+						<tbody>
+							<row><entry><para>half</para></entry><entry><para>&#x00BD;</para></entry><entry><para>VULGAR FRACTION ONE HALF</para></entry></row>
+							<row><entry><para>frac12</para></entry><entry><para>&#x00BD;</para></entry><entry><para>VULGAR FRACTION ONE HALF</para></entry></row>
+							<row><entry><para>frac14</para></entry><entry><para>&#x00BC;</para></entry><entry><para>VULGAR FRACTION ONE QUARTER</para></entry></row>
+							<row><entry><para>frac34</para></entry><entry><para>&#x00BE;</para></entry><entry><para>VULGAR FRACTION THREE QUARTERS</para></entry></row>
+							<row><entry><para>frac18</para></entry><entry><para>&#x215B;</para></entry><entry><para>VULGAR FRACTION ONE EIGHTH</para></entry></row>
+							<row><entry><para>frac38</para></entry><entry><para>&#x215C;</para></entry><entry><para>VULGAR FRACTION THREE EIGHTHS</para></entry></row>
+							<row><entry><para>frac58</para></entry><entry><para>&#x215D;</para></entry><entry><para>VULGAR FRACTION FIVE EIGHTHS</para></entry></row>
+							<row><entry><para>frac78</para></entry><entry><para>&#x215E;</para></entry><entry><para>VULGAR FRACTION SEVEN EIGHTHS</para></entry></row>
+							<row><entry><para>sup1</para></entry><entry><para>&#x00B9;</para></entry><entry><para>SUPERSCRIPT ONE</para></entry></row>
+							<row><entry><para>sup2</para></entry><entry><para>&#x00B2;</para></entry><entry><para>SUPERSCRIPT TWO</para></entry></row>
+							<row><entry><para>sup3</para></entry><entry><para>&#x00B3;</para></entry><entry><para>SUPERSCRIPT THREE</para></entry></row>
+							<row><entry><para>plus</para></entry><entry><para>&#x002B;</para></entry><entry><para>PLUS SIGN</para></entry></row>
+							<row><entry><para>plusmn</para></entry><entry><para>&#x00B1;</para></entry><entry><para>PLUS-MINUS SIGN</para></entry></row>
+							<row><entry><para>lt</para></entry><entry><para>&#x003C;</para></entry><entry><para>LESS-THAN SIGN</para></entry></row>
+							<row><entry><para>equals</para></entry><entry><para>&#x003D;</para></entry><entry><para>EQUALS SIGN</para></entry></row>
+							<row><entry><para>gt</para></entry><entry><para>&#x003E;</para></entry><entry><para>GREATER-THAN SIGN</para></entry></row>
+							<row><entry><para>divide</para></entry><entry><para>&#x00F7;</para></entry><entry><para>DIVISION SIGN</para></entry></row>
+							<row><entry><para>times</para></entry><entry><para>&#x00D7;</para></entry><entry><para>MULTIPLICATION SIGN</para></entry></row>
+							<row><entry><para>curren</para></entry><entry><para>&#x00A4;</para></entry><entry><para>CURRENCY SIGN</para></entry></row>
+							<row><entry><para>pound</para></entry><entry><para>&#x00A3;</para></entry><entry><para>POUND SIGN</para></entry></row>
+							<row><entry><para>dollar</para></entry><entry><para>&#x0024;</para></entry><entry><para>DOLLAR SIGN</para></entry></row>
+							<row><entry><para>cent</para></entry><entry><para>&#x00A2;</para></entry><entry><para>CENT SIGN</para></entry></row>
+							<row><entry><para>yen</para></entry><entry><para>&#x00A5;</para></entry><entry><para>YEN SIGN</para></entry></row>
+							<row><entry><para>num</para></entry><entry><para>&#x0023;</para></entry><entry><para>NUMBER SIGN</para></entry></row>
+							<row><entry><para>percnt</para></entry><entry><para>&#x0025;</para></entry><entry><para>PERCENT SIGN</para></entry></row>
+							<row><entry><para>amp</para></entry><entry><para>&#38;</para></entry><entry><para>AMPERSAND</para></entry></row>
+							<row><entry><para>ast</para></entry><entry><para>&#x002A;</para></entry><entry><para>ASTERISK</para></entry></row>
+							<row><entry><para>commat</para></entry><entry><para>&#x0040;</para></entry><entry><para>COMMERCIAL AT</para></entry></row>
+							<row><entry><para>lsqb</para></entry><entry><para>&#x005B;</para></entry><entry><para>LEFT SQUARE BRACKET</para></entry></row>
+							<row><entry><para>bsol</para></entry><entry><para>&#x005C;</para></entry><entry><para>REVERSE SOLIDUS</para></entry></row>
+							<row><entry><para>rsqb</para></entry><entry><para>&#x005D;</para></entry><entry><para>RIGHT SQUARE BRACKET</para></entry></row>
+							<row><entry><para>lcub</para></entry><entry><para>&#x007B;</para></entry><entry><para>LEFT CURLY BRACKET</para></entry></row>
+							<row><entry><para>horbar</para></entry><entry><para>&#x2015;</para></entry><entry><para>HORIZONTAL BAR</para></entry></row>
+							<row><entry><para>verbar</para></entry><entry><para>&#x007C;</para></entry><entry><para>VERTICAL LINE</para></entry></row>
+							<row><entry><para>rcub</para></entry><entry><para>&#x007D;</para></entry><entry><para>RIGHT CURLY BRACKET</para></entry></row>
+							<row><entry><para>micro</para></entry><entry><para>&#x00B5;</para></entry><entry><para>MICRO SIGN</para></entry></row>
+							<row><entry><para>ohm</para></entry><entry><para>&#x2126;</para></entry><entry><para>OHM SIGN</para></entry></row>
+							<row><entry><para>deg</para></entry><entry><para>&#x00B0;</para></entry><entry><para>DEGREE SIGN</para></entry></row>
+							<row><entry><para>ordm</para></entry><entry><para>&#x00BA;</para></entry><entry><para>MASCULINE ORDINAL INDICATOR</para></entry></row>
+							<row><entry><para>ordf</para></entry><entry><para>&#x00AA;</para></entry><entry><para>FEMININE ORDINAL INDICATOR</para></entry></row>
+							<row><entry><para>sect</para></entry><entry><para>&#x00A7;</para></entry><entry><para>SECTION SIGN</para></entry></row>
+							<row><entry><para>para</para></entry><entry><para>&#x00B6;</para></entry><entry><para>PILCROW SIGN</para></entry></row>
+							<row><entry><para>middot</para></entry><entry><para>&#x00B7;</para></entry><entry><para>MIDDLE DOT</para></entry></row>
+							<row><entry><para>larr</para></entry><entry><para>&#x2190;</para></entry><entry><para>LEFTWARDS ARROW</para></entry></row>
+							<row><entry><para>rarr</para></entry><entry><para>&#x2192;</para></entry><entry><para>RIGHTWARDS ARROW</para></entry></row>
+							<row><entry><para>uarr</para></entry><entry><para>&#x2191;</para></entry><entry><para>UPWARDS ARROW</para></entry></row>
+							<row><entry><para>darr</para></entry><entry><para>&#x2193;</para></entry><entry><para>DOWNWARDS ARROW</para></entry></row>
+							<row><entry><para>copy</para></entry><entry><para>&#x00A9;</para></entry><entry><para>COPYRIGHT SIGN</para></entry></row>
+							<row><entry><para>reg</para></entry><entry><para>&#x00AE;</para></entry><entry><para>REG TRADE MARK SIGN</para></entry></row>
+							<row><entry><para>trade</para></entry><entry><para>&#x2122;</para></entry><entry><para>TRADE MARK SIGN</para></entry></row>
+							<row><entry><para>brvbar</para></entry><entry><para>&#x00A6;</para></entry><entry><para>BROKEN BAR</para></entry></row>
+							<row><entry><para>not</para></entry><entry><para>&#x00AC;</para></entry><entry><para>NOT SIGN</para></entry></row>
+							<row><entry><para>sung</para></entry><entry><para>&#x2669;</para></entry><entry><para>EIGHTH NOTE</para></entry></row>
+							<row><entry><para>excl</para></entry><entry><para>&#x0021;</para></entry><entry><para>EXCLAMATION MARK</para></entry></row>
+							<row><entry><para>iexcl</para></entry><entry><para>&#x00A1;</para></entry><entry><para>INVERTED EXCLAMATION MARK</para></entry></row>
+							<row><entry><para>quot</para></entry><entry><para>&#x0022;</para></entry><entry><para>QUOTATION MARK</para></entry></row>
+							<row><entry><para>apos</para></entry><entry><para>&#x0027;</para></entry><entry><para>APOSTROPHE</para></entry></row>
+							<row><entry><para>lpar</para></entry><entry><para>&#x0028;</para></entry><entry><para>LEFT PARENTHESIS</para></entry></row>
+							<row><entry><para>rpar</para></entry><entry><para>&#x0029;</para></entry><entry><para>RIGHT PARENTHESIS</para></entry></row>
+							<row><entry><para>comma</para></entry><entry><para>&#x002C;</para></entry><entry><para>COMMA</para></entry></row>
+							<row><entry><para>lowbar</para></entry><entry><para>&#x005F;</para></entry><entry><para>LOW LINE</para></entry></row>
+							<row><entry><para>hyphen</para></entry><entry><para>&#x002D;</para></entry><entry><para>HYPHEN-MINUS</para></entry></row>
+							<row><entry><para>period</para></entry><entry><para>&#x002E;</para></entry><entry><para>FULL STOP</para></entry></row>
+							<row><entry><para>sol</para></entry><entry><para>&#x002F;</para></entry><entry><para>SOLIDUS</para></entry></row>
+							<row><entry><para>colon</para></entry><entry><para>&#x003A;</para></entry><entry><para>COLON</para></entry></row>
+							<row><entry><para>semi</para></entry><entry><para>&#x003B;</para></entry><entry><para>SEMICOLON</para></entry></row>
+							<row><entry><para>quest</para></entry><entry><para>&#x003F;</para></entry><entry><para>QUESTION MARK</para></entry></row>
+							<row><entry><para>iquest</para></entry><entry><para>&#x00BF;</para></entry><entry><para>INVERTED QUESTION MARK</para></entry></row>
+							<row><entry><para>laquo</para></entry><entry><para>&#x00AB;</para></entry><entry><para>LEFT-POINTING DOUBLE ANGLE QUOTATION MARK</para></entry></row>
+							<row><entry><para>raquo</para></entry><entry><para>&#x00BB;</para></entry><entry><para>RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK</para></entry></row>
+							<row><entry><para>lsquo</para></entry><entry><para>&#x2018;</para></entry><entry><para>LEFT SINGLE QUOTATION MARK</para></entry></row>
+							<row><entry><para>rsquo</para></entry><entry><para>&#x2019;</para></entry><entry><para>RIGHT SINGLE QUOTATION MARK</para></entry></row>
+							<row><entry><para>ldquo</para></entry><entry><para>&#x201C;</para></entry><entry><para>LEFT DOUBLE QUOTATION MARK</para></entry></row>
+							<row><entry><para>rdquo</para></entry><entry><para>&#x201D;</para></entry><entry><para>RIGHT DOUBLE QUOTATION MARK</para></entry></row>
+							<row><entry><para>nbsp</para></entry><entry><para>&#x00A0;</para></entry><entry><para>NO-BREAK SPACE</para></entry></row>
+							<row><entry><para>shy</para></entry><entry><para>&#x00AD;</para></entry><entry><para>SOFT HYPHEN</para></entry></row>
+						</tbody>
+					</tgroup>
+				</table>
+				<table>
+					<title>iso-pub.ent</title>
+					<tgroup cols="3">
+						<colspec colname="col1" colwidth="0.50*"/>
+						<colspec colname="col2" align="center" colwidth="0.40*"/>
+						<colspec colname="col3" colwidth="2.20*"/>
+						<thead>
+							<row><entry><para>ISO Entity Name</para></entry><entry><para>Unicode Entity</para></entry><entry><para>Description</para></entry></row>
+						</thead>
+						<tbody>
+							<row><entry><para>emsp</para></entry><entry><para>&#x2003;</para></entry><entry><para>EM SPACE</para></entry></row>
+							<row><entry><para>ensp</para></entry><entry><para>&#x2002;</para></entry><entry><para>EN SPACE</para></entry></row>
+							<row><entry><para>emsp13</para></entry><entry><para>&#x2004;</para></entry><entry><para>THREE-PER-EM SPACE</para></entry></row>
+							<row><entry><para>emsp14</para></entry><entry><para>&#x2005;</para></entry><entry><para>FOUR-PER-EM SPACE</para></entry></row>
+							<row><entry><para>numsp</para></entry><entry><para>&#x2007;</para></entry><entry><para>FIGURE SPACE</para></entry></row>
+							<row><entry><para>puncsp</para></entry><entry><para>&#x2008;</para></entry><entry><para>PUNCTUATION SPACE</para></entry></row>
+							<row><entry><para>thinsp</para></entry><entry><para>&#x2009;</para></entry><entry><para>THIN SPACE</para></entry></row>
+							<row><entry><para>hairsp</para></entry><entry><para>&#x200A;</para></entry><entry><para>HAIR SPACE</para></entry></row>
+							<row><entry><para>mdash</para></entry><entry><para>&#x2014;</para></entry><entry><para>EM DASH</para></entry></row>
+							<row><entry><para>ndash</para></entry><entry><para>&#x2013;</para></entry><entry><para>EN DASH</para></entry></row>
+							<row><entry><para>dash</para></entry><entry><para>&#x2010;</para></entry><entry><para>HYPHEN</para></entry></row>
+							<row><entry><para>blank</para></entry><entry><para>&#x2423;</para></entry><entry><para>OPEN BOX</para></entry></row>
+							<row><entry><para>hellip</para></entry><entry><para>&#x2026;</para></entry><entry><para>HORIZONTAL ELLIPSIS</para></entry></row>
+							<row><entry><para>nldr</para></entry><entry><para>&#x2025;</para></entry><entry><para>TWO DOT LEADER</para></entry></row>
+							<row><entry><para>frac13</para></entry><entry><para>&#x2153;</para></entry><entry><para>VULGAR FRACTION ONE THIRD</para></entry></row>
+							<row><entry><para>frac23</para></entry><entry><para>&#x2154;</para></entry><entry><para>VULGAR FRACTION TWO THIRDS</para></entry></row>
+							<row><entry><para>frac15</para></entry><entry><para>&#x2155;</para></entry><entry><para>VULGAR FRACTION ONE FIFTH</para></entry></row>
+							<row><entry><para>frac25</para></entry><entry><para>&#x2156;</para></entry><entry><para>VULGAR FRACTION TWO FIFTHS</para></entry></row>
+							<row><entry><para>frac35</para></entry><entry><para>&#x2157;</para></entry><entry><para>VULGAR FRACTION THREE FIFTHS</para></entry></row>
+							<row><entry><para>frac45</para></entry><entry><para>&#x2158;</para></entry><entry><para>VULGAR FRACTION FOUR FIFTHS</para></entry></row>
+							<row><entry><para>frac16</para></entry><entry><para>&#x2159;</para></entry><entry><para>VULGAR FRACTION ONE SIXTH</para></entry></row>
+							<row><entry><para>frac56</para></entry><entry><para>&#x215A;</para></entry><entry><para>VULGAR FRACTION FIVE SIXTHS</para></entry></row>
+							<row><entry><para>incare</para></entry><entry><para>&#x2105;</para></entry><entry><para>CARE OF</para></entry></row>
+							<row><entry><para>block</para></entry><entry><para>&#x2588;</para></entry><entry><para>FULL BLOCK</para></entry></row>
+							<row><entry><para>uhblk</para></entry><entry><para>&#x2580;</para></entry><entry><para>UPPER HALF BLOCK</para></entry></row>
+							<row><entry><para>lhblk</para></entry><entry><para>&#x2584;</para></entry><entry><para>LOWER HALF BLOCK</para></entry></row>
+							<row><entry><para>blk14</para></entry><entry><para>&#x2591;</para></entry><entry><para>LIGHT SHADE</para></entry></row>
+							<row><entry><para>blk12</para></entry><entry><para>&#x2592;</para></entry><entry><para>MEDIUM SHADE</para></entry></row>
+							<row><entry><para>blk34</para></entry><entry><para>&#x2593;</para></entry><entry><para>DARK SHADE</para></entry></row>
+							<row><entry><para>marker</para></entry><entry><para>&#x25AE;</para></entry><entry><para>BLACK VERTICAL RECTANGLE</para></entry></row>
+							<row><entry><para>cir</para></entry><entry><para>&#x25CB;</para></entry><entry><para>WHITE CIRCLE</para></entry></row>
+							<row><entry><para>squ</para></entry><entry><para>&#x25A1;</para></entry><entry><para>WHITE SQUARE</para></entry></row>
+							<row><entry><para>rect</para></entry><entry><para>&#x25AD;</para></entry><entry><para>WHITE RECTANGLE</para></entry></row>
+							<row><entry><para>utri</para></entry><entry><para>&#x25B5;</para></entry><entry><para>WHITE UP-POINTING TRIANGLE</para></entry></row>
+							<row><entry><para>dtri</para></entry><entry><para>&#x25BF;</para></entry><entry><para>WHITE DOWN-POINTING TRIANGLE</para></entry></row>
+							<row><entry><para>star</para></entry><entry><para>&#x22C6;</para></entry><entry><para>STAR OPERATOR</para></entry></row>
+							<row><entry><para>bull</para></entry><entry><para>&#x2022;</para></entry><entry><para>BULLET</para></entry></row>
+							<row><entry><para>squf</para></entry><entry><para>&#x25AA;</para></entry><entry><para>BLACK SMALL SQUARE</para></entry></row>
+							<row><entry><para>utrif</para></entry><entry><para>&#x25B4;</para></entry><entry><para>BLACK UP-POINTING TRIANGLE</para></entry></row>
+							<row><entry><para>dtrif</para></entry><entry><para>&#x25BE;</para></entry><entry><para>BLACK DOWN-POINTING TRIANGLE</para></entry></row>
+							<row><entry><para>ltrif</para></entry><entry><para>&#x25C2;</para></entry><entry><para>BLACK LEFT-POINTING TRIANGLE</para></entry></row>
+							<row><entry><para>rtrif</para></entry><entry><para>&#x25B8;</para></entry><entry><para>BLACK RIGHT-POINTING TRIANGLE</para></entry></row>
+							<row><entry><para>clubs</para></entry><entry><para>&#x2663;</para></entry><entry><para>BLACK CLUB SUIT</para></entry></row>
+							<row><entry><para>diams</para></entry><entry><para>&#x2666;</para></entry><entry><para>BLACK DIAMOND SUIT</para></entry></row>
+							<row><entry><para>hearts</para></entry><entry><para>&#x2665;</para></entry><entry><para>BLACK HEART SUIT</para></entry></row>
+							<row><entry><para>spades</para></entry><entry><para>&#x2660;</para></entry><entry><para>BLACK SPADE SUIT</para></entry></row>
+							<row><entry><para>malt</para></entry><entry><para>&#x2720;</para></entry><entry><para>MALTESE CROSS</para></entry></row>
+							<row><entry><para>dagger</para></entry><entry><para>&#x2020;</para></entry><entry><para>DAGGER</para></entry></row>
+							<row><entry><para>Dagger</para></entry><entry><para>&#x2021;</para></entry><entry><para>DOUBLE DAGGER</para></entry></row>
+							<row><entry><para>check</para></entry><entry><para>&#x2713;</para></entry><entry><para>CHECK MARK</para></entry></row>
+							<row><entry><para>cross</para></entry><entry><para>&#x2717;</para></entry><entry><para>BALLOT X</para></entry></row>
+							<row><entry><para>sharp</para></entry><entry><para>&#x266F;</para></entry><entry><para>MUSIC SHARP SIGN</para></entry></row>
+							<row><entry><para>flat</para></entry><entry><para>&#x266D;</para></entry><entry><para>MUSIC FLAT SIGN</para></entry></row>
+							<row><entry><para>male</para></entry><entry><para>&#x2642;</para></entry><entry><para>MALE SIGN</para></entry></row>
+							<row><entry><para>female</para></entry><entry><para>&#x2640;</para></entry><entry><para></para></entry></row>
+							<row><entry><para>phone</para></entry><entry><para>&#x260E;</para></entry><entry><para>TELEPHONE SIGN</para></entry></row>
+							<row><entry><para>telrec</para></entry><entry><para>&#x2315;</para></entry><entry><para>TELEPHONE RECORDER</para></entry></row>
+							<row><entry><para>copysr</para></entry><entry><para>&#x2117;</para></entry><entry><para>SOUND RECORDING COPYRIGHT</para></entry></row>
+							<row><entry><para>caret</para></entry><entry><para>&#x2041;</para></entry><entry><para>CARET</para></entry></row>
+							<row><entry><para>lsquor</para></entry><entry><para>&#x201A;</para></entry><entry><para>SINGLE LOW-9 QUOTATION MARK</para></entry></row>
+							<row><entry><para>ldquor</para></entry><entry><para>&#x201E;</para></entry><entry><para>DOUBLE LOW-9 QUOTATION MARK</para></entry></row>
+							<row><entry><para>fflig</para></entry><entry><para>&#xFB00;</para></entry><entry><para>LATIN SMALL LIGATURE FF</para></entry></row>
+							<row><entry><para>filig</para></entry><entry><para>&#xFB01;</para></entry><entry><para>LATIN SMALL LIGATURE FI</para></entry></row>
+							<row><entry><para>ffilig</para></entry><entry><para>&#xFB03;</para></entry><entry><para>LATIN SMALL LIGATURE FFI</para></entry></row>
+							<row><entry><para>ffllig</para></entry><entry><para>&#xFB04;</para></entry><entry><para>LATIN SMALL LIGATURE FFL</para></entry></row>
+							<row><entry><para>fllig</para></entry><entry><para>&#xFB02;</para></entry><entry><para>LATIN SMALL LIGATURE FL</para></entry></row>
+							<row><entry><para>mldr</para></entry><entry><para>&#x2026;</para></entry><entry><para>HORIZONTAL ELLIPSIS</para></entry></row>
+							<row><entry><para>rdquor</para></entry><entry><para>&#x201C;</para></entry><entry><para>RIGHT DOUBLE QUOTATION MARK</para></entry></row>
+							<row><entry><para>rsquor</para></entry><entry><para>&#x2018;</para></entry><entry><para>RIGHT SINGLE QUOTATION MARK</para></entry></row>
+							<row><entry><para>vellip</para></entry><entry><para>&#x22EE;</para></entry><entry><para>VERTICAL ELLIPSIS</para></entry></row>
+							<row><entry><para>hybull</para></entry><entry><para>&#x2043;</para></entry><entry><para>HYPHEN BULLET</para></entry></row>
+							<row><entry><para>loz</para></entry><entry><para>&#x25CA;</para></entry><entry><para>LOZENGE</para></entry></row>
+							<row><entry><para>lozf</para></entry><entry><para>&#x2726;</para></entry><entry><para>BLACK LOZENGE</para></entry></row>
+							<row><entry><para>ltri</para></entry><entry><para>&#x25C3;</para></entry><entry><para>WHITE LEFT-POINTING TRIANGLE</para></entry></row>
+							<row><entry><para>rtri</para></entry><entry><para>&#x25B9;</para></entry><entry><para>WHITE RIGHT-POINTING TRIANGLE</para></entry></row>
+							<row><entry><para>starf</para></entry><entry><para>&#x2605;</para></entry><entry><para>BLACK STAR</para></entry></row>
+							<row><entry><para>natur</para></entry><entry><para>&#x266E;</para></entry><entry><para>MUSIC NATURAL SIGN</para></entry></row>
+							<row><entry><para>rx</para></entry><entry><para>&#x211E;</para></entry><entry><para>PRESCRIPTION TAKE</para></entry></row>
+							<row><entry><para>sext</para></entry><entry><para>&#x2736;</para></entry><entry><para>SIX POINTED BLACK STAR</para></entry></row>
+							<row><entry><para>target</para></entry><entry><para>&#x2316;</para></entry><entry><para>POSITION INDICATOR</para></entry></row>
+							<row><entry><para>dlcrop</para></entry><entry><para>&#x230D;</para></entry><entry><para>BOTTOM LEFT CROP</para></entry></row>
+							<row><entry><para>drcrop</para></entry><entry><para>&#x230C;</para></entry><entry><para>BOTTOM RIGHT CROP</para></entry></row>
+							<row><entry><para>ulcrop</para></entry><entry><para>&#x230F;</para></entry><entry><para>TOP LEFT CROP</para></entry></row>
+							<row><entry><para>urcrop</para></entry><entry><para>&#x230E;</para></entry><entry><para>TOP RIGHT CROP</para></entry></row>
+						</tbody>
+					</tgroup>
+				</table>
+				<table>
+					<title>iso-tech.ent</title>
+					<tgroup cols="3">
+						<colspec colname="col1" colwidth="0.50*"/>
+						<colspec colname="col2" align="center" colwidth="0.40*"/>
+						<colspec colname="col3" colwidth="2.20*"/>
+						<thead>
+							<row><entry><para>ISO Entity Name</para></entry><entry><para>Unicode Entity</para></entry><entry><para>Description</para></entry></row>
+						</thead>
+						<tbody>
+							<row><entry><para>aleph</para></entry><entry><para>&#x2135;</para></entry><entry><para>ALEF SYMBOL</para></entry></row>
+							<row><entry><para>and</para></entry><entry><para>&#x2227;</para></entry><entry><para>LOGICAL AND</para></entry></row>
+							<row><entry><para>ang90</para></entry><entry><para>&#x221F;</para></entry><entry><para>RIGHT ANGLE</para></entry></row>
+							<row><entry><para>angsph</para></entry><entry><para>&#x2222;</para></entry><entry><para>SPHERICAL ANGLE</para></entry></row>
+							<row><entry><para>ap</para></entry><entry><para>&#x2248;</para></entry><entry><para>ALMOST EQUAL TO</para></entry></row>
+							<row><entry><para>becaus</para></entry><entry><para>&#x2235;</para></entry><entry><para>BECAUSE</para></entry></row>
+							<row><entry><para>bottom</para></entry><entry><para>&#x22A5;</para></entry><entry><para>UP TACK</para></entry></row>
+							<row><entry><para>cap</para></entry><entry><para>&#x2229;</para></entry><entry><para>INTERSECTION</para></entry></row>
+							<row><entry><para>cong</para></entry><entry><para>&#x2245;</para></entry><entry><para>APPROXIMATELY EQUAL TO</para></entry></row>
+							<row><entry><para>conint</para></entry><entry><para>&#x222E;</para></entry><entry><para>CONTOUR INTEGRAL</para></entry></row>
+							<row><entry><para>cup</para></entry><entry><para>&#x222A;</para></entry><entry><para>UNION</para></entry></row>
+							<row><entry><para>equiv</para></entry><entry><para>&#x2261;</para></entry><entry><para>IDENTICAL TO</para></entry></row>
+							<row><entry><para>exist</para></entry><entry><para>&#x2203;</para></entry><entry><para>THERE EXISTS</para></entry></row>
+							<row><entry><para>forall</para></entry><entry><para>&#x2200;</para></entry><entry><para>FOR ALL</para></entry></row>
+							<row><entry><para>fnof</para></entry><entry><para>&#x0192;</para></entry><entry><para>LATIN SMALL LETTER F WITH HOOK</para></entry></row>
+							<row><entry><para>ge</para></entry><entry><para>&#x2265;</para></entry><entry><para>GREATER-THAN OR EQUAL TO</para></entry></row>
+							<row><entry><para>iff</para></entry><entry><para>&#x21D4;</para></entry><entry><para>LEFT RIGHT DOUBLE ARROW</para></entry></row>
+							<row><entry><para>infin</para></entry><entry><para>&#x221E;</para></entry><entry><para>INFINITY</para></entry></row>
+							<row><entry><para>int</para></entry><entry><para>&#x222B;</para></entry><entry><para>INTEGRAL</para></entry></row>
+							<row><entry><para>isin</para></entry><entry><para>&#x220A;</para></entry><entry><para>ELEMENT OF</para></entry></row>
+							<row><entry><para>lang</para></entry><entry><para>&#x3008;</para></entry><entry><para>LEFT-POINTING ANGLE BRACKET</para></entry></row>
+							<row><entry><para>lArr</para></entry><entry><para>&#x21D0;</para></entry><entry><para>LEFTWARDS ARROW</para></entry></row>
+							<row><entry><para>le</para></entry><entry><para>&#x2264;</para></entry><entry><para>LESS-THAN OR EQUAL TO</para></entry></row>
+							<row><entry><para>minus</para></entry><entry><para>&#x2212;</para></entry><entry><para>MINUS SIGN</para></entry></row>
+							<row><entry><para>mnplus</para></entry><entry><para>&#x2213;</para></entry><entry><para>MINUS-OR-PLUS SIGN</para></entry></row>
+							<row><entry><para>nabla</para></entry><entry><para>&#x2207;</para></entry><entry><para>NABLA</para></entry></row>
+							<row><entry><para>ne</para></entry><entry><para>&#x2260;</para></entry><entry><para>NOT EQUAL TO</para></entry></row>
+							<row><entry><para>ni</para></entry><entry><para>&#x220D;</para></entry><entry><para>CONTAINS AS MEMBER</para></entry></row>
+							<row><entry><para>or</para></entry><entry><para>&#x2228;</para></entry><entry><para>LOGICAL OR</para></entry></row>
+							<row><entry><para>par</para></entry><entry><para>&#x2225;</para></entry><entry><para>PARALLEL TO</para></entry></row>
+							<row><entry><para>part</para></entry><entry><para>&#x2202;</para></entry><entry><para>PARTIAL DIFFERENTIAL</para></entry></row>
+							<row><entry><para>permil</para></entry><entry><para>&#x2030;</para></entry><entry><para>PER MILLE SIGN</para></entry></row>
+							<row><entry><para>perp</para></entry><entry><para>&#x22A5;</para></entry><entry><para>UP TACK</para></entry></row>
+							<row><entry><para>prime</para></entry><entry><para>&#x2032;</para></entry><entry><para>PRIME</para></entry></row>
+							<row><entry><para>Prime</para></entry><entry><para>&#x2033;</para></entry><entry><para>DOUBLE PRIME</para></entry></row>
+							<row><entry><para>prop</para></entry><entry><para>&#x221D;</para></entry><entry><para>PROPORTIONAL TO</para></entry></row>
+							<row><entry><para>radic</para></entry><entry><para>&#x221A;</para></entry><entry><para>SQUARE ROUTE</para></entry></row>
+							<row><entry><para>rang</para></entry><entry><para>&#x3009;</para></entry><entry><para>RIGHT-POINTING ANGLE BRACKET</para></entry></row>
+							<row><entry><para>rArr</para></entry><entry><para>&#x21D2;</para></entry><entry><para>RIGHTWARDS ARROW</para></entry></row>
+							<row><entry><para>sim</para></entry><entry><para>&#x223C;</para></entry><entry><para>TILDE OPERATOR</para></entry></row>
+							<row><entry><para>sime</para></entry><entry><para>&#x2243;</para></entry><entry><para>ASYMPTOTICALLY EQUAL TO</para></entry></row>
+							<row><entry><para>square</para></entry><entry><para>&#x25A1;</para></entry><entry><para>WHITE SQUARE</para></entry></row>
+							<row><entry><para>sub</para></entry><entry><para>&#x2282;</para></entry><entry><para>SUBSET OF</para></entry></row>
+							<row><entry><para>sube</para></entry><entry><para>&#x2286;</para></entry><entry><para>SUBSET OF OR EQUAL TO</para></entry></row>
+							<row><entry><para>sup</para></entry><entry><para>&#x2283;</para></entry><entry><para>SUPERSET OF</para></entry></row>
+							<row><entry><para>supe</para></entry><entry><para>&#x2287;</para></entry><entry><para>SUPERSET OF OR EQUAL TO</para></entry></row>
+							<row><entry><para>there4</para></entry><entry><para>&#x2234;</para></entry><entry><para>THEREFORE</para></entry></row>
+							<row><entry><para>Verbar</para></entry><entry><para>&#x2016;</para></entry><entry><para>DOUBLE VERTICAL LINE</para></entry></row>
+							<row><entry><para>angst</para></entry><entry><para>&#x212B;</para></entry><entry><para>ANGSTROM SIGN</para></entry></row>
+							<row><entry><para>bernou</para></entry><entry><para>&#x212C;</para></entry><entry><para>SCRIPT CAPITAL B</para></entry></row>
+							<row><entry><para>compfn</para></entry><entry><para>&#x2218;</para></entry><entry><para>RING OPERATOR</para></entry></row>
+							<row><entry><para>Dot</para></entry><entry><para>&#x00A8;</para></entry><entry><para>DIAERESIS</para></entry></row>
+							<row><entry><para>DotDot</para></entry><entry><para>&#x20DC;</para></entry><entry><para>COMBINING FOUR DOTS ABOVE</para></entry></row>
+							<row><entry><para>hamilt</para></entry><entry><para>&#x210B;</para></entry><entry><para>SCRIPT CAPITAL H</para></entry></row>
+							<row><entry><para>lagran</para></entry><entry><para>&#x2112;</para></entry><entry><para>SCRIPT CAPITAL L</para></entry></row>
+							<row><entry><para>lowast</para></entry><entry><para>&#x2217;</para></entry><entry><para>ASTERISK OPERATOR</para></entry></row>
+							<row><entry><para>notin</para></entry><entry><para>&#x2209;</para></entry><entry><para>NOT AN ELEMENT OF</para></entry></row>
+							<row><entry><para>order</para></entry><entry><para>&#x2134;</para></entry><entry><para>SCRIPT SMALL O</para></entry></row>
+							<row><entry><para>phmmat</para></entry><entry><para>&#x2133;</para></entry><entry><para>SCRIPT CAPITAL M</para></entry></row>
+							<row><entry><para>tdot</para></entry><entry><para>&#x20DB;</para></entry><entry><para>COMBINING THREE DOTS ABOVE</para></entry></row>
+							<row><entry><para>tprime</para></entry><entry><para>&#x2034;</para></entry><entry><para>TRIPLE PRIME</para></entry></row>
+							<row><entry><para>wedgeq</para></entry><entry><para>&#x2259;</para></entry><entry><para>ESTIMATES</para></entry></row>
+						</tbody>
+					</tgroup>
+				</table>
+			</levelledPara>
+		</description>
+	</content>
+</dmodule>
